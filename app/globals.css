@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap'); */
 @import "tailwindcss";
 
 :root {
   --background: #fbfbfb;
   /* --foreground: #171717; */
   --main-blue: #0B8EFF;
+  --main-darkerblue: #0078E0;
 }
 
 @theme inline {
@@ -24,5 +25,5 @@
 body {
   background: var(--background);
   /* color: var(--foreground); */
-  font-family: "Geist", sans-serif;
+  /* font-family: "Inter", sans-serif; */
 }

@@ -47,8 +47,8 @@ export default function Nav() {
     
       {/* desktop nav */}
       {/* hidden in mobile */}
-      <nav className="w-full bg-[#FBFBFB] backdrop-blur-lg border-b border-[#e3e3e3] fixed z-20 h-16 hidden sm:flex justify-between items-center left-1/2 -translate-x-1/2 top-0">
-        <div className="px-15 flex items-center w-full max-w mx-auto justify-between">
+      <nav className="w-full bg-[rgba(248,248,248,0.8)] backdrop-blur-lg border-b border-[rgba(227,227,227,0.4)] fixed z-20 h-18 hidden sm:flex justify-between items-center left-1/2 -translate-x-1/2 top-0">
+        <div className="px-25 flex items-center w-full max-w mx-auto justify-between">
           <div>
             <Button link="/" variant="copy-email" text="tranndhungg@gmail.com"></Button>
           </div>
