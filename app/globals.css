@@ -7,6 +7,11 @@
   --main-blue: #0B8EFF;
   --main-darkerblue: #0078E0;
   --colour-bodytext: #323232;
+  --colour-bodytext-2: #505050;
+  --colour-samsung: #2C32AC;
+  --colour-influenso: #D15400;
+  --colour-cardio: #009C1F;
+  --colour-jackalope: #00C6F2;
 }
 
 @theme inline {
