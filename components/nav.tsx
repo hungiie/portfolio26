@@ -47,8 +47,8 @@ export default function Nav() {
     
       {/* desktop nav */}
       {/* hidden in mobile */}
-      <nav className="w-full bg-[rgba(248,248,248,0.8)] backdrop-blur-lg border-1 border-[rgba(227,227,227,0.4)] fixed z-20 h-16 hidden sm:flex justify-between items-center left-1/2 -translate-x-1/2 top-0">
-        <div className="px-25 flex items-center w-full max-w mx-auto justify-between">
+      <nav className="w-full bg-[rgba(248,248,248,0.8)] backdrop-blur-lg border-1 border-[rgba(204,204,204,0.4)] fixed z-20 h-16 hidden sm:flex justify-between items-center left-1/2 -translate-x-1/2 top-0">
+        <div className="px-22 flex items-center w-full max-w mx-auto justify-between">
           <div>
             <Button link="/" variant="copy-email" text="tranndhungg@gmail.com" textSize="text-sm"></Button>
           </div>
@@ -57,7 +57,7 @@ export default function Nav() {
               <Button link="/" variant="grey-hyperlink" text="Home" textSize="text-sm"></Button>
             </div>
             <div className="mr-6">
-              <Button link="/" variant="grey-hyperlink" text="About" textSize="text-sm"></Button>
+              <Button link="/about" variant="grey-hyperlink" text="About" textSize="text-sm"></Button>
             </div>
             <div className="pl-1.5">
               <Button link="#" variant="blue-button" text="Resume" textSize="text-sm"></Button>
