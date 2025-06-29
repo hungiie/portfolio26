@@ -50,17 +50,17 @@ export default function Nav() {
       <nav className="w-full bg-[rgba(248,248,248,0.8)] backdrop-blur-lg border-1 border-[rgba(204,204,204,0.4)] fixed z-20 h-16 hidden sm:flex justify-between items-center left-1/2 -translate-x-1/2 top-0">
         <div className="px-22 flex items-center w-full max-w mx-auto justify-between">
           <div>
-            <Button link="/" variant="copy-email" text="tranndhungg@gmail.com" textSize="text-sm"></Button>
+            <Button link="/" target="_self" variant="copy-email" text="tranndhungg@gmail.com" textSize="text-sm"></Button>
           </div>
           <div className="flex items-center">
             <div className="mr-9">
-              <Button link="/" variant="grey-hyperlink" text="Home" textSize="text-sm"></Button>
+              <Button link="/" target="_self" variant="grey-hyperlink" text="Home" textSize="text-sm"></Button>
             </div>
             <div className="mr-6">
-              <Button link="/about" variant="grey-hyperlink" text="About" textSize="text-sm"></Button>
+              <Button link="/about" target="_self" variant="grey-hyperlink" text="About" textSize="text-sm"></Button>
             </div>
             <div className="pl-1.5">
-              <Button link="#" variant="blue-button" text="Resume" textSize="text-sm"></Button>
+              <Button link="#" target="_blank" variant="blue-button" text="Resume" textSize="text-sm"></Button>
             </div>
           </div>
         </div>

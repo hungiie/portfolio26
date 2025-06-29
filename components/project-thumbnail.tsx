@@ -15,18 +15,18 @@ interface Props {
 
 export default function ProjectThumbnail(props: Props) {
     return(
-        <a href={props.link} className="group mb-8 block rounded-2xl border-[#d3d3d3] border-1 overflow-hidden hover:border-[var(--main-blue)]">
+        <a href={props.link} className="group mb-8 block rounded-2xl border-[#e7e7e7] border-2 overflow-hidden hover:border-[var(--main-blue)]">
             <div className="w-full h-66 relative">
                 <Image src={props.imageSrc} alt={props.name} fill className="object-cover" />
             </div>
-            <div className="px-7 pt-6 pb-8 w-full">
-                <div className="w-full flex items-center mb-3">
+            <div className="px-7 pb-8 w-full">
+                <div className="w-full flex items-center mt-6 mb-5">
                     {/* <span className="w-2 h-2 rounded-full inline-block mr-3" style={{ backgroundColor: props.colourCode }}></span> */}
-                    <p className={`text-md text-[var(--colour-bodytext)] group-hover:underline group-hover:text-[var(--main-blue)]`}>
+                    <p className={`text-xl text-[var(--colour-bodytext)] group-hover:underline group-hover:text-[var(--main-blue)]`}>
                         {props.name}
                     </p>
                 </div>
-                <p className="mb-3 text-sm text-[var(--colour-bodytext)]">{props.description}</p>
+                <p className="mb-3 text-sm text-[var(--colour-bodytext-2)]">{props.description}</p>
                 <div className="flex mt-7">
                     <p className="mr-8 inline-block text-xs text-[var(--colour-bodytext-3)]">{props.tag1}</p>
                     <p className="mr-8 inline-block text-xs text-[var(--colour-bodytext-3)]">{props.tag2}</p>

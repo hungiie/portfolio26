@@ -4,15 +4,19 @@ import Me from "@/components/me"
 import Footer from "@/components/footer"
 import Button from "@/components/button"
 import Image from "next/image"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCodeBranch, faPenToSquare } from '@fortawesome/free-solid-svg-icons'
+
 
 export default function About(){
     return (
         <div className="mt-30 px-22">
-            <div className="grid grid-cols-[1.2fr_1fr]">
+            <div className="grid grid-cols-[1.3fr_1fr]">
                 <div className="">
                     <p className="text-2xl text-[var(--colour-bodytext)] tracking-tight mb-9">Hi, I'm Hung. 👋</p>
+                    {/* <p className="text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight leading-none mb-9">I’m a product designer <FontAwesomeIcon icon={faPenToSquare} size="xs" style={{color: "var(--colour-yellow)",}} /> who sometimes wanders in GitHub <FontAwesomeIcon icon={faCodeBranch} size="sm" style={{color: "#0B8EFF",}} /></p> */}
                     <p className="text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight leading-none mb-9">I’m a product designer who sometimes wanders in GitHub.</p>
-                    <p className="text-sm text-[var(--colour-bodytext)]">Currently a UX designer at <span className="inline-block"><Button link="https://research.samsung.com/srca" variant="blue-hyperlink" text="Samsung Canada" textSize="text-sm"/></span>.</p>
+                    <p className="text-sm text-[var(--colour-bodytext)]">Currently a UX designer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung Canada" textSize="text-sm"/></span>.</p>
                 </div>
                 <div className="flex items-center justify-center h-full pl-20">
                     <Me />
@@ -26,9 +30,9 @@ export default function About(){
             </div>
 
             <div className="mt-6">
-                <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><Button link="#" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
-                <p className="text-sm text-[var(--colour-bodytext)] -mt-3">Send me a message on <span className="inline-block"><Button link="#" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
-                <p className="text-sm text-[var(--colour-bodytext)] -mt-3">Check out my <span className="inline-block"><Button link="#" variant="blue-hyperlink" text="Resume" textSize="text-sm"/></span></p>
+                <p className="text-sm text-[var(--colour-bodytext)]">Send me an <span className="inline-block"><Button link="#" target="_blank" variant="blue-hyperlink" text="email" textSize="text-sm"/></span></p>
+                <p className="text-sm text-[var(--colour-bodytext)] -mt-3">Send me a message on <span className="inline-block"><Button link="https://www.linkedin.com/in/hung-tran-profile/" target="_blank" variant="blue-hyperlink" text="LinkedIn" textSize="text-sm"/></span></p>
+                <p className="text-sm text-[var(--colour-bodytext)] -mt-3">Check out my <span className="inline-block"><Button link="#" target="_blank" variant="blue-hyperlink" text="Resume" textSize="text-sm"/></span></p>
             </div>
 
             <div className="mt-20 w-full">

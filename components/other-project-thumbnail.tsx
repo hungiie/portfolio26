@@ -12,7 +12,7 @@ interface Props {
 
 export default function OtherProjectThumbnail(props: Props) {
     return(
-        <a href={props.link} className="group mb-8 block rounded-2xl border-[#d3d3d3] border-1 overflow-hidden hover:border-[var(--main-blue)]">
+        <a href={props.link} target="_blank" className="group mb-8 block rounded-2xl border-[#efefef] border-2 overflow-hidden hover:border-[var(--main-blue)]">
             <div className="w-full h-60 relative">
                 <Image src={props.imageSrc} alt={props.name} fill className="object-cover" />
             </div>
@@ -22,7 +22,7 @@ export default function OtherProjectThumbnail(props: Props) {
                         {props.name}
                     </p>
                 </div>
-                <p className="mb-3 text-sm text-[var(--colour-bodytext)]">{props.description}</p>
+                <p className="mb-3 text-sm text-[var(--colour-bodytext-2)]">{props.description}</p>
                 <p className="mt-2 inline-block text-xs text-[var(--colour-bodytext-3)]">{props.tag}</p>
             </div>
         </a>
