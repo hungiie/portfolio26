@@ -11,7 +11,9 @@ export default function Home() {
       <div className="md:h-screen">
         <div className="mt-35 md:fixed md:mt-0 md:top-60">
           <p className="text-5xl md:text-6xl text-[var(--colour-bodytext)] font-semibold tracking-tight mb-9">Hi, I&lsquo;m Hung.</p>
-          <p className="text-sm text-[var(--colour-bodytext)]">A product designer who sometimes wanders in GitHub.</p>
+          {/* <p className="text-sm text-[var(--colour-bodytext)]">A product designer who sometimes wanders in GitHub.</p> */}
+          <p className="text-sm text-[var(--colour-bodytext)]">Pushing pixels by day, pulling requests by night.</p>
+
           <p className="text-sm text-[var(--colour-bodytext)] -mt-1">Currently a UX designer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung Canada" textSize="text-sm"/></span>.</p>
         </div>
         <div className="mt-10 -mb-25 md:mb-0 md:mt-0 md:fixed bottom-0">
@@ -23,6 +25,7 @@ export default function Home() {
         <ProjectThumbnail link="/samsungknox" name="Samsung Knox Manage" description="Samsung Knox Suite is a proprietary security and management framework pre-installed on most Samsung mobile devices." tag1="UX design internship" tag2="8 months" tag3="B2B UX" imageSrc="/knox.png" colourCode="var(--colour-samsung)" />
         <ProjectThumbnail link="/influenso" name="Influenso" description="A solution guiding new influencers navigate brand partnerships & communications, and make use of cross-platform analytics." tag1="UX design" tag2="2 months" tag3="B2B2C UX" imageSrc="/influenso.png" colourCode="var(--colour-influenso)" />
         <ProjectThumbnail link="/cardio" name="card.io" description="Designing a Spotify feature that guides users in creating personalized cardio playlists, helping them feel confident and in control." tag1="UX Design" tag2="1.5 month" tag3="B2C UX" imageSrc="/cardio.png" colourCode="var(--colour-cardio)" />
+        <ProjectThumbnail link="/jackalope" name="Jackalope" description="Social event and community finder app, helping international students settle into a new country, with AI-powered suggestions and built-in feedback mechanisms." tag1="UX Design" tag2="3 months" tag3="B2C UX" imageSrc="/jackalope.png" colourCode="var(--colour-jackalope)" />
 
         <p className="text-2xl mt-30 mb-10 text-[var(--colour-bodytext)]">Some other projects</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-7">
