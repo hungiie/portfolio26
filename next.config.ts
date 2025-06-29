@@ -1,13 +1,7 @@
-// next.config.js
-/** @type {import('next').NextConfig} */
+import type { NextConfig } from "next";
 
-const nextConfig = {
-  output: 'export',
-  basePath: '/hungiie.github.io',
-  images: {
-    unoptimized: true,
-  },
+const nextConfig: NextConfig = {
+  /* config options here */
 };
 
-module.exports = nextConfig;
-
+export default nextConfig;

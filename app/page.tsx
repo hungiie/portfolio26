@@ -19,14 +19,14 @@ export default function Home() {
         </div>
       </div>
       <div className="mt-30 pb-30">
-        <ProjectThumbnail link="#" name="Samsung Knox Manage" description="Samsung Knox Suite - a proprietary security and management framework pre-installed on most Samsung mobile devices." tag="UX design internship" imageSrc="./knox.jpeg" colourCode="var(--colour-samsung)" />
-        <ProjectThumbnail link="#" name="Influenso" description="Influenso - A solution guiding new influencers navigating brand partnerships and cross-platform analytics." tag="B2B2C UX" imageSrc="./influenso.png" colourCode="var(--colour-influenso)" />
-        <ProjectThumbnail link="#" name="card.io" description="Designing a Spotify feature that guides users in creating personalized cardio playlists, helping them feel confident and in control." tag="UX Design" imageSrc="./cardio.png" colourCode="var(--colour-cardio)" />
+        <ProjectThumbnail link="#" name="Samsung Knox Manage" description="Samsung Knox Suite - a proprietary security and management framework pre-installed on most Samsung mobile devices." tag="UX design internship" imageSrc="/knox.jpeg" colourCode="var(--colour-samsung)" />
+        <ProjectThumbnail link="#" name="Influenso" description="Influenso - A solution guiding new influencers navigating brand partnerships and cross-platform analytics." tag="B2B2C UX" imageSrc="/influenso.png" colourCode="var(--colour-influenso)" />
+        <ProjectThumbnail link="#" name="card.io" description="Designing a Spotify feature that guides users in creating personalized cardio playlists, helping them feel confident and in control." tag="UX Design" imageSrc="/cardio.png" colourCode="var(--colour-cardio)" />
 
         <p className="text-2xl mt-30 mb-10 text-[var(--colour-bodytext)]">Some other projects</p>
         <div className="grid grid-cols-2 gap-x-7">
-          <OtherProjectThumbnail link="#" name="React Native app built with Firebase authentication & database." description="Note-taking app for senior citizens, provides assistance in everyday tasks, integrating native features and API such as Apple Maps, Text-to-speech, voice note." tag="UX engineer" imageSrc="./memorymate.png" />
-          <OtherProjectThumbnail link="#" name="Uber Eats’ speculative feature: Nutrition Report." description="Assists and informs users about their food’s nutrition details, makes sure their dietary needs are met." tag="UX design" imageSrc="./ubereats.png" />
+          <OtherProjectThumbnail link="#" name="React Native app built with Firebase authentication & database." description="Note-taking app for senior citizens, provides assistance in everyday tasks, integrating native features and API such as Apple Maps, Text-to-speech, voice note." tag="UX engineer" imageSrc="/memorymate.png" />
+          <OtherProjectThumbnail link="#" name="Uber Eats’ speculative feature: Nutrition Report." description="Assists and informs users about their food’s nutrition details, makes sure their dietary needs are met." tag="UX design" imageSrc="/ubereats.png" />
         </div>
       </div>
     </div>

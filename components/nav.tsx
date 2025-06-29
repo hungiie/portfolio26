@@ -4,21 +4,21 @@
 // making this a client component so that it can use useState
 "use client";
 
-// import { useState } from "react";
-// import { Dialog } from "@headlessui/react";
-// import { XMarkIcon } from "@heroicons/react/20/solid";
-// import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import { useState } from "react";
+import { Dialog } from "@headlessui/react";
+import { XMarkIcon } from "@heroicons/react/20/solid";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import Button from "./button";
-// import Link from "next/link";
+import Link from "next/link";
 
 export default function Nav() {
   // this is to control then open and close state of mobile nav
-  // const [modalOpen, setModalOpen] = useState(false);
+  const [modalOpen, setModalOpen] = useState(false);
 
   return (
     <div>
       {/* mobile nav, after being tapped - showing the options */}
-      {/* <nav className="fixed block top-6 right-6 pointer-events-auto sm:hidden z-20">
+      <nav className="fixed block top-6 right-6 pointer-events-auto sm:hidden z-20">
         <button className="group flex w-fit rounded-full bg-white/80 px-4 py-2 text-sm font-medium text-slate-700 shadow-lg shadow-slate-800/5 ring-1 ring-zinc-900/5 backdrop-blur gap-1.5" onClick={() => setModalOpen(true)}>Menu<ChevronDownIcon width={20} height={20}></ChevronDownIcon></button>
         <Dialog as="div" onClose={() => setModalOpen(false)} open={modalOpen}>
           <div className="fixed inset-0 z-50 bg-zinc-800/50 backdrop-blur opacity-100 text-sm font-medium" aria-hidden="true"/>
@@ -35,15 +35,15 @@ export default function Nav() {
               </li>
             </ul>
             <div className="flex justify-end h-fit">
-              <Link className="p-2">
+              <a className="p-2">
                 <button onClick={() => setModalOpen(false)}>
                   <XMarkIcon width={20} height={20} className="text-slate-600 hover:text-blue-500"></XMarkIcon>
                 </button>
-              </Link>
+              </a>
             </div>
           </Dialog.Panel>
         </Dialog>
-      </nav> */}
+      </nav>
     
       {/* desktop nav */}
       {/* hidden in mobile */}
