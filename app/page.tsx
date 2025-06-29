@@ -14,7 +14,7 @@ export default function Home() {
           <p className="text-sm text-[var(--colour-bodytext)]">A product designer who sometimes wanders in GitHub.</p>
           <p className="text-sm text-[var(--colour-bodytext)] -mt-1">Currently a UX designer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung Canada" textSize="text-sm"/></span>.</p>
         </div>
-        <div className="mt-10 md:mt-0 md:fixed bottom-0">
+        <div className="mt-10 -mb-25 md:mb-0 md:mt-0 md:fixed bottom-0">
           <Footer />
         </div>
       </div>
