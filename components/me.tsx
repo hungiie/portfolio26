@@ -17,8 +17,8 @@ export default function Me() {
             -z-10 
             text-4xl
             md:text-5xl 
-            -top-5 
-            -left-4 
+            -top-6 
+            -left-2 
             group-hover:-top-9 
             group-hover:left-1
             ">
@@ -33,10 +33,10 @@ export default function Me() {
             font-extrabold 
             tracking-tight 
             -z-10 
-            text-5xl
+            text-4xl
             md:text-6xl 
-            top-3
-            -right-8 
+            top-2
+            -right-6 
             md:-right-11 
             group-hover:top-8 
             group-hover:-right-10
