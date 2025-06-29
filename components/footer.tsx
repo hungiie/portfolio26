@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Footer() {
     return (
-        <div>
+        <div className="pb-18">
             <p className="mb-1 text-sm text-[rgba(0,0,0,0.3)]">Designed and coded by me using Next.js</p>
             <p className="mb-7 text-sm text-[rgba(0,0,0,0.3)]">© 2025 Hung. All rights reserved.</p>
             <div className="flex">

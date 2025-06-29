@@ -66,7 +66,7 @@ export default function About(){
 
 
 
-            <div className="mt-32 pb-40">
+            <div className="mt-32">
                 <Footer />
             </div>
         </div>
