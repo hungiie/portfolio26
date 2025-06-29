@@ -10,20 +10,20 @@ import { faCodeBranch, faPenToSquare } from '@fortawesome/free-solid-svg-icons'
 
 export default function About(){
     return (
-        <div className="mt-30 px-22">
-            <div className="grid grid-cols-[1.3fr_1fr]">
-                <div className="">
-                    <p className="text-2xl text-[var(--colour-bodytext)] tracking-tight mb-9">Hi, I'm Hung. 👋</p>
+        <div className="mt-15 px-10 md:mt-30 md:px-22">
+            <div className="grid grid-cols-1 md:grid-cols-[1.3fr_1fr]">
+                <div className="order-2 md:order-1">
+                    <p className="text-lg md:text-2xl text-[var(--colour-bodytext)] tracking-tight mb-5 md:mb-9">Hi, I'm Hung. 👋</p>
                     {/* <p className="text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight leading-none mb-9">I’m a product designer <FontAwesomeIcon icon={faPenToSquare} size="xs" style={{color: "var(--colour-yellow)",}} /> who sometimes wanders in GitHub <FontAwesomeIcon icon={faCodeBranch} size="sm" style={{color: "#0B8EFF",}} /></p> */}
-                    <p className="text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight leading-[110%] mb-9">I’m a product designer who sometimes wanders in GitHub.</p>
+                    <p className="text-4xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight leading-[110%] mb-9">I’m a product designer who sometimes wanders in GitHub.</p>
                     <p className="text-sm text-[var(--colour-bodytext)]">Currently a UX designer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung Canada" textSize="text-sm"/></span>.</p>
                 </div>
-                <div className="flex items-center justify-center h-full">
+                <div className="flex items-center justify-center h-full order-1 mb-30 md:order-2">
                     <Me />
                 </div>
             </div>
 
-            <div className="mt-12 w-2/5">
+            <div className="mt-12 w-full md:w-2/5">
                 <p className="text-sm text-[var(--colour-bodytext)]">I'm passionate about how social media shapes our digital habits - and how modern interfaces evolve to match our shrinking attention spans.</p>
                 <p className="text-sm text-[var(--colour-bodytext)] mt-3">Much like how social media can turn attention into influence, interfaces can turn curiosity into loyalty.</p>
                 <p className="text-sm text-[var(--colour-bodytext)]">As a UX designer, I value digital experiences that capture interest quickly - and sustain it through clarity and accessibility.</p>
@@ -37,8 +37,8 @@ export default function About(){
 
             <div className="mt-20 w-full">
                 <p className="text-2xl text-[var(--colour-bodytext)] mb-12">When I'm not doing UX...</p>
-                <div className="grid grid-cols-2 gap-9">
-                    <div className="grid grid-cols-3 gap-2">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-9">
+                    <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
                         <div className="relative w-full aspect-square rounded-xl overflow-hidden">
                             <Image src="/spinning.jpeg" alt="spinning tour" className="object-cover" fill />
                         </div>
@@ -59,7 +59,7 @@ export default function About(){
                         </div>
                     </div>
                     <div className="flex items-end">
-                        <p className="text-xl text-[var(--colour-bodytext)] w-4/5">... You can find me joining local communities, at concerts, or at a school event!</p>
+                        <p className="text-xl text-[var(--colour-bodytext)] w-full md:w-4/5">... You can find me joining local communities, at concerts, or at a school event!</p>
                     </div>
                 </div>
             </div>
