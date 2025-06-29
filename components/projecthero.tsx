@@ -4,7 +4,7 @@ import Button from "./button";
 
 interface Props {
     name: string;
-    description: string;
+    description: string | React.ReactNode;
     colourCode: string;
     linkText1: string;
     linkText2: string;
