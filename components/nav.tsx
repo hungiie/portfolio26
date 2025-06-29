@@ -3,7 +3,7 @@
 "use client"
 
 import Button from "./button";
-import Link from "next/link";
+// import Link from "next/link";
 
 export default function Nav() {
   // this is to control then open and close state of mobile nav
@@ -47,7 +47,7 @@ export default function Nav() {
               </div>
             </div>
             <div className="pl-1.5">
-              <Button link="#" target="_blank" variant="blue-button" text="Resume" textSize="text-sm"></Button>
+              <Button link="https://drive.google.com/file/d/1F2UXNXNltAkH-Y0qinUaZDLaMNDMd6Mh/view" target="_blank" variant="blue-button" text="Resume" textSize="text-sm"></Button>
             </div>
           </div>
         </div>
