@@ -28,8 +28,8 @@ export default function ProjectThumbnail(props: Props) {
                 </div>
                 <p className="mb-3 text-sm text-[var(--colour-bodytext-2)]">{props.description}</p>
                 <div className="flex mt-7">
-                    <p className="mr-8 inline-block text-xs text-[var(--colour-bodytext-3)]">{props.tag1}</p>
-                    <p className="mr-8 inline-block text-xs text-[var(--colour-bodytext-3)]">{props.tag2}</p>
+                    <p className="mr-3 md:mr-8 inline-block text-xs text-[var(--colour-bodytext-3)]">{props.tag1}</p>
+                    <p className="mr-3 md:mr-8 inline-block text-xs text-[var(--colour-bodytext-3)]">{props.tag2}</p>
                     <p className="inline-block text-xs text-[var(--colour-bodytext-3)]">{props.tag3}</p>
                 </div>
             </div>
