@@ -22,7 +22,7 @@ export default function ProjectThumbnail(props: Props) {
             <div className="px-7 pb-8 w-full">
                 <div className="w-full flex items-center mt-6 mb-5">
                     {/* <span className="w-2 h-2 rounded-full inline-block mr-3" style={{ backgroundColor: props.colourCode }}></span> */}
-                    <p className={`text-xl text-[var(--colour-bodytext)] group-hover:underline group-hover:text-[var(--main-blue)]`}>
+                    <p className={`text-lg text-[var(--colour-bodytext)] group-hover:underline group-hover:text-[var(--main-blue)]`}>
                         {props.name}
                     </p>
                 </div>

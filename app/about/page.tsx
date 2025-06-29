@@ -15,10 +15,10 @@ export default function About(){
                 <div className="">
                     <p className="text-2xl text-[var(--colour-bodytext)] tracking-tight mb-9">Hi, I'm Hung. 👋</p>
                     {/* <p className="text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight leading-none mb-9">I’m a product designer <FontAwesomeIcon icon={faPenToSquare} size="xs" style={{color: "var(--colour-yellow)",}} /> who sometimes wanders in GitHub <FontAwesomeIcon icon={faCodeBranch} size="sm" style={{color: "#0B8EFF",}} /></p> */}
-                    <p className="text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight leading-none mb-9">I’m a product designer who sometimes wanders in GitHub.</p>
+                    <p className="text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight leading-[110%] mb-9">I’m a product designer who sometimes wanders in GitHub.</p>
                     <p className="text-sm text-[var(--colour-bodytext)]">Currently a UX designer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung Canada" textSize="text-sm"/></span>.</p>
                 </div>
-                <div className="flex items-center justify-center h-full pl-20">
+                <div className="flex items-center justify-center h-full">
                     <Me />
                 </div>
             </div>
