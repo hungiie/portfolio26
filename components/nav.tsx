@@ -27,7 +27,7 @@ export default function Nav() {
       top-0
       ">
         <div className="
-        px-10
+        px-9
         md:px-22 
         flex 
         items-center 

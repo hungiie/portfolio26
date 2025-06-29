@@ -10,7 +10,7 @@ import Image from "next/image"
 
 export default function About(){
     return (
-        <div className="mt-15 px-10 md:mt-30 md:px-22">
+        <div className="mt-15 px-9 md:mt-30 md:px-22">
             <div className="grid grid-cols-1 md:grid-cols-[1.3fr_1fr]">
                 <div className="order-2 md:order-1">
                     <p className="text-lg md:text-2xl text-[var(--colour-bodytext)] tracking-tight mb-5 md:mb-9">Hi, I&lsquo;m Hung. 👋</p>
