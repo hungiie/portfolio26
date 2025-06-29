@@ -1,11 +1,13 @@
-import type { NextConfig } from "next";
+// next.config.js
+/** @type {import('next').NextConfig} */
 
-const nextConfig: NextConfig = {
-  output: "export",
+const nextConfig = {
+  output: 'export',
+  basePath: '/hungiie.github.io',
   images: {
-    loader: "custom",
-    loaderFile: "./ImageLoader.js",
+    unoptimized: true,
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
+
