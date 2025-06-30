@@ -16,7 +16,7 @@ export default function Home() {
         transition={{ duration: 0.8, ease: "easeOut" }}
       > */}
         <div className="md:h-screen">
-          <div className="mt-35 md:fixed md:mt-0 md:top-60 2xl:top-85">
+          <div className="mt-35 md:fixed md:mt-0 md:top-60 2xl:top-75">
             <p className="text-5xl md:text-6xl text-[var(--colour-bodytext)] font-semibold tracking-tight mb-9">Hi, I&lsquo;m Hung.</p>
             <p className="text-sm text-[var(--colour-bodytext)]">Pushing pixels by day, pulling requests by night.</p>
 
