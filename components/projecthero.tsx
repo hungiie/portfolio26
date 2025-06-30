@@ -13,7 +13,7 @@ interface Props {
 export default function ProjectHero(props: Props) {
     return (
         <div className="mt-35">
-            <p className="px-6 py-3 text-sm md:text-md text-white rounded-full inline-block" style={{ backgroundColor: props.colourCode }}>
+            <p className="px-6 py-3 text-md md:text-md text-white rounded-full inline-block" style={{ backgroundColor: props.colourCode }}>
                 {props.name}
             </p>
             <p className="text-[var(--colour-bodytext)] text-4xl md:text-7xl font-semibold mt-10 mb-15 tracking-tight leading-[110%] w-full md:w-4/5">{props.description}</p>
