@@ -3,6 +3,7 @@
 "use client"
 
 import Button from "./button";
+import CopyEmailButton from "./copyemail";
 // import Link from "next/link";
 
 export default function Nav() {
@@ -35,7 +36,7 @@ export default function Nav() {
         justify-between
         ">
           <div className="hidden md:block">
-            <Button link="/" target="_self" variant="copy-email" text="tranndhungg@gmail.com" textSize="text-sm"></Button>
+            <CopyEmailButton link="/" text="tranndhungg@gmail.com" textSize="text-sm"></CopyEmailButton>
           </div>
           <div className="w-full flex items-center justify-between md:w-auto md:justify-normal">
             <div className="flex">
