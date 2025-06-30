@@ -23,7 +23,7 @@ export default function Button(props: Props) {
 
   if (props.variant == "blue-button") {
     return (
-      <a href={props.link} target={props.target} className={`bg-[var(--main-blue)] hover:bg-[var(--main-darkerblue)] transition-colors h-10 rounded-full text-white tracking-tight flex items-center text-sm font-medium px-4 ${props.textSize ?? "text-sm"}`}>
+      <a href={props.link} target={props.target} className={`bg-[var(--main-blue)] hover:bg-[var(--main-darkerblue)] transition-colors h-10 rounded-full text-white flex items-center text-sm font-medium px-4 ${props.textSize ?? "text-sm"}`}>
         {props.text}
       </a>
     );
@@ -35,13 +35,13 @@ export default function Button(props: Props) {
     );
   } else if (props.variant == "blue-hyperlink") {
     return (
-      <a href={props.link} target={props.target} className={`bg-transparent h-9 rounded-full text-[var(--main-blue)] hover:underline tracking-tight flex items-center text-sm font-medium p-0 ${props.textSize ?? "text-sm"}`}>
+      <a href={props.link} target={props.target} className={`bg-transparent h-9 rounded-full text-[var(--main-blue)] hover:underline flex items-center text-sm font-medium p-0 ${props.textSize ?? "text-sm"}`}>
         {props.text}
       </a>
     );
   } else if (props.variant == "grey-hyperlink") {
     return (
-      <a href={props.link} target={props.target} className={`bg-transparent h-9 rounded-full text-[var(--colour-bodytext-2)] hover:text-[var(--main-blue)] tracking-tight flex items-center text-sm font-medium p-0 ${props.textSize ?? "text-sm"}`}>
+      <a href={props.link} target={props.target} className={`bg-transparent h-9 rounded-full text-[var(--colour-bodytext-2)] hover:text-[var(--main-blue)] flex items-center text-sm font-medium p-0 ${props.textSize ?? "text-sm"}`}>
         {props.text}
       </a>
     );
