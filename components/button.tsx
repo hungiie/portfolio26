@@ -1,3 +1,5 @@
+"use client"
+
 import { useState, useEffect } from "react";
 
 // all the properties of a button (its variant, where it goes, its text)
@@ -10,7 +12,6 @@ interface Props {
 }
 
 export default function Button(props: Props) {
-  const [isHovered, setIsHovered] = useState(false);
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {

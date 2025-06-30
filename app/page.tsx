@@ -4,17 +4,17 @@ import ProjectThumbnail from "@/components/project-thumbnail";
 import Button from "@/components/button";
 import Footer from "@/components/footer";
 import OtherProjectThumbnail from "@/components/other-project-thumbnail";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 export default function Home() {
   return (
     <div className="px-9 md:px-22 grid grid-cols-1 md:grid-cols-[1fr_1.2fr]">
-      <motion.div 
+      {/* <motion.div 
         className="md:h-screen"
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-      >
+      > */}
         <div className="md:h-screen">
           <div className="mt-35 md:fixed md:mt-0 md:top-60">
             <p className="text-5xl md:text-6xl text-[var(--colour-bodytext)] font-semibold tracking-tight mb-9">Hi, I&lsquo;m Hung.</p>
@@ -26,14 +26,14 @@ export default function Home() {
             <Footer />
           </div>
         </div>
-      </motion.div>
+      {/* </motion.div> */}
 
-      <motion.div
+      {/* <motion.div
         className="mt-30 pb-30"
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
-      >
+      > */}
         <div className="">
           <ProjectThumbnail link="/samsungknox" name="Samsung Knox Manage" description="Samsung Knox Suite is a proprietary security and management framework pre-installed on most Samsung mobile devices." tag1="UX design internship" tag2="8 months" tag3="B2B UX" imageSrc="/knox.png" colourCode="var(--colour-samsung)" />
           <ProjectThumbnail link="/influenso" name="Influenso" description="A solution guiding new influencers navigate brand partnerships & communications, and make use of cross-platform analytics." tag1="UX design" tag2="2 months" tag3="B2B2C UX" imageSrc="/influenso.png" colourCode="var(--colour-influenso)" />
@@ -48,7 +48,7 @@ export default function Home() {
             <OtherProjectThumbnail link="" name="Fraser Health’s internship." description="My work as a visual design & videographer intern at Fraser Health Authority from October 2023 to May 2024." tag="Visual design" imageSrc="/fh.png" />
           </div>
         </div>
-      </motion.div>
+      {/* </motion.div> */}
     </div>
   );
 }
