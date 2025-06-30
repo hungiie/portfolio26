@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Hung - UX",
+  openGraph: {
+    images: ["https://hungtran.vercel.app/preview.png"],
+  },
 };
 
 export default function RootLayout({
