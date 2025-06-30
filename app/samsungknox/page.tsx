@@ -17,7 +17,7 @@ export default function SamsungKnox () {
                     manage enterprise-level Samsung mobile devices with ease.
                 </>}
                 linkText1="Jump to solution" 
-                linkText2="Email me for full case study" />
+                linkText2="" />
                 <p className="mt-20 mb-30 text-lg text-[var(--colour-bodytext-3)]">Coming soon.</p>
                 <Footer />
             </div>
