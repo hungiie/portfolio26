@@ -16,7 +16,7 @@ export default function Home() {
         transition={{ duration: 0.8, ease: "easeOut" }}
       > */}
         <div className="md:h-screen">
-          <div className="mt-35 md:fixed md:mt-0 md:top-60">
+          <div className="mt-35 md:fixed md:mt-0 md:top-60 2xl:top-90">
             <p className="text-5xl md:text-6xl text-[var(--colour-bodytext)] font-semibold tracking-tight mb-9">Hi, I&lsquo;m Hung.</p>
             <p className="text-sm text-[var(--colour-bodytext)]">Pushing pixels by day, pulling requests by night.</p>
 
@@ -35,6 +35,7 @@ export default function Home() {
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
       > */}
         <div className="mt-30 pb-30">
+          <p className="text-lg md:text-2xl text-[var(--colour-bodytext)] mb-5 md:mb-9">My works</p>
           <ProjectThumbnail link="/samsungknox" name="Samsung Knox Manage" description="Samsung Knox Suite is a proprietary security and management framework pre-installed on most Samsung mobile devices." tag1="UX design internship" tag2="8 months" tag3="B2B UX" imageSrc="/knox.png" colourCode="var(--colour-samsung)" />
           <ProjectThumbnail link="/influenso" name="Influenso" description="A solution guiding new influencers navigate brand partnerships & communications, and make use of cross-platform analytics." tag1="UX design" tag2="2 months" tag3="B2B2C UX" imageSrc="/influenso.png" colourCode="var(--colour-influenso)" />
           <ProjectThumbnail link="/cardio" name="card.io" description="Designing a Spotify feature that guides users in creating personalized cardio playlists, helping them feel confident and in control." tag1="UX Design" tag2="1.5 month" tag3="B2C UX" imageSrc="/cardio.png" colourCode="var(--colour-cardio)" />
