@@ -4,7 +4,7 @@ import Me from "@/components/me"
 import Footer from "@/components/footer"
 import Button from "@/components/button"
 import Image from "next/image"
-import ExpandableImage from "@/components/expandable-image"
+// import ExpandableImage from "@/components/expandable-image"
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faCodeBranch, faPenToSquare } from '@fortawesome/free-solid-svg-icons'
 
