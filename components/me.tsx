@@ -4,7 +4,7 @@ export default function Me() {
     return (
         <div className="relative group">
             <div className="transition-all duration-800 rounded-full overflow-hidden w-[120px] h-[120px] md:w-[200px] md:h-[200px] group-hover:scale-[1.07]">
-                <Image src="/about.jpg" alt="Hung Tran" className="object-cover rounded-full" fill />
+                <Image src="/abt.jpeg" alt="Hung Tran" className="object-cover rounded-full" fill />
             </div>
             <p className="
             absolute 
