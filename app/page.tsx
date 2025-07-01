@@ -8,7 +8,7 @@ import OtherProjectThumbnail from "@/components/other-project-thumbnail";
 
 export default function Home() {
   return (
-    <div className="px-9 md:px-22 grid grid-cols-1 md:grid-cols-[1fr_1.2fr]">
+    <div className="px-9 md:px-22 grid grid-cols-1 md:grid-cols-[1fr_1.3fr]">
       {/* <motion.div 
         className="md:h-screen"
         initial={{ opacity: 0, y: 40 }}
@@ -17,7 +17,7 @@ export default function Home() {
       > */}
         <div className="md:h-screen">
           <div className="mt-35 md:fixed md:mt-0 md:top-60 2xl:top-75">
-            <p className="text-5xl md:text-6xl text-[var(--colour-bodytext)] font-semibold tracking-tight mb-9">Hi, I&lsquo;m Hung.</p>
+            <p className="text-5xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight mb-9">Hi, I&lsquo;m Hung.</p>
             <p className="text-sm text-[var(--colour-bodytext)]">Pushing pixels by day, pulling requests by night.</p>
 
             <p className="text-sm text-[var(--colour-bodytext)] -mt-1">Currently a UX designer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung Canada" textSize="text-sm"/></span>.</p>
