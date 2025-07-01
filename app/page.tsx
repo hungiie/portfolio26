@@ -22,7 +22,7 @@ export default function Home() {
 
             <p className="text-sm text-[var(--colour-bodytext)] -mt-1">Currently a UX designer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung Canada" textSize="text-sm"/></span>.</p>
           </div>
-          <div className="mt-10 -mb-25 md:mb-0 md:mt-0 md:fixed bottom-0">
+          <div className="hidden md:block mt-10 -mb-25 md:mb-0 md:mt-0 md:fixed bottom-0">
             <Footer />
           </div>
         </div>
@@ -34,7 +34,7 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
       > */}
-        <div className="mt-30 pb-30">
+        <div className="mt-30 pb-15 md:pb-30">
           {/* <p className="text-lg md:text-2xl text-[var(--colour-bodytext)] mb-5 md:mb-9">Some of my works...</p> */}
           <ProjectThumbnail link="/samsungknox" name="Samsung Knox Manage" description="Samsung Knox Suite is a proprietary security and management framework pre-installed on most Samsung mobile devices." tag1="UX design internship" tag2="8 months" tag3="B2B UX" imageSrc="/knox.png" colourCode="var(--colour-samsung)" />
           <ProjectThumbnail link="/influenso" name="Influenso" description="A solution guiding new influencers navigate brand partnerships & communications, and make use of cross-platform analytics." tag1="UX design" tag2="2 months" tag3="B2B2C UX" imageSrc="/influenso.png" colourCode="var(--colour-influenso)" />
@@ -50,6 +50,9 @@ export default function Home() {
           </div>
         </div>
       {/* </motion.div> */}
+      <div className="block md:hidden">
+        <Footer/>
+      </div>
     </div>
   );
 }
