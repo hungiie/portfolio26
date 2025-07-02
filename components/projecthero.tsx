@@ -19,9 +19,9 @@ export default function ProjectHero(props: Props) {
             <p className="text-[var(--colour-bodytext)] text-4xl md:text-7xl font-semibold mt-10 mb-15 tracking-tight leading-[120%] md:leading-[110%] w-full md:w-4/5">{props.description}</p>
             <div className="flex items-center">
                 <div className="mr-10 md:mr-20">
-                    <Button variant="blue-hyperlink" link="#" text={props.linkText1} target="_self" textSize="sm"/>
+                    <Button variant="blue-hyperlink" link="#" text={props.linkText1} target="_self" textSize="text-sm"/>
                 </div>
-                <Button variant="blue-hyperlink" link="#" text={props.linkText2} target="_self" textSize="sm"/>
+                <Button variant="blue-hyperlink" link="#" text={props.linkText2} target="_self" textSize="text-sm"/>
             </div>
         </div>
     )

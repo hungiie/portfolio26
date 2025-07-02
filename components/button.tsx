@@ -35,7 +35,7 @@ export default function Button(props: Props) {
     );
   } else if (props.variant == "blue-hyperlink") {
     return (
-      <a href={props.link} target={props.target} className={`bg-transparent h-9 rounded-full text-[var(--main-blue)] hover:underline flex items-center font-medium p-0 ${props.textSize ?? "text-sm"}`}>
+      <a href={props.link} target={props.target} className={`bg-transparent h-9 rounded-full text-[var(--main-blue)] hover:underline inline-block font-medium p-0 ${props.textSize ?? "text-sm"}`}>
         {props.text}
       </a>
     );
