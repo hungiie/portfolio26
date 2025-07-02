@@ -12,13 +12,13 @@ import Image from "next/image"
 export default function About(){
     return (
         <div className="mt-15 px-9 md:mt-35 md:px-22">
-            <div className="grid grid-cols-1 md:grid-cols-[1.5fr_1fr]">
+            <div className="grid grid-cols-1 md:grid-cols-[1.3fr_1fr]">
                 <div className="order-2 md:order-1">
                     <p className="text-lg md:text-2xl text-[var(--colour-bodytext)] mb-5 md:mb-9">Hi, I&lsquo;m Hung. 👋</p>
                     {/* <p className="text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight leading-none mb-9">I’m a product designer <FontAwesomeIcon icon={faPenToSquare} size="xs" style={{color: "var(--colour-yellow)",}} /> who sometimes wanders in GitHub <FontAwesomeIcon icon={faCodeBranch} size="sm" style={{color: "#0B8EFF",}} /></p> */}
                     {/* <p className="text-4xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight leading-[120%] md:leading-[110%] mb-9">Pushing <span className="text-[var(--colour-yellow)]">pixels</span> by day, pulling <span className="text-[var(--main-blue)]">requests</span> by night.</p> */}
-                    <p className="text-4xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight leading-[120%] md:leading-[110%] mb-9">Pushing pixels by day, pulling requests by night.</p>
-                    {/* <p className="text-4xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight leading-[110%] mb-9">I&lsquo;m a product designer who sometimes wanders in GitHub.</p> */}
+                    {/* <p className="text-4xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight leading-[120%] md:leading-[110%] mb-9">Pushing pixels by day, pulling requests by night.</p> */}
+                    <p className="text-4xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight lleading-[120%] md:leading-[110%] mb-9">I&lsquo;m a product designer who sometimes wanders in GitHub.</p>
                     <p className="text-sm text-[var(--colour-bodytext)]">Currently a UX designer at <span className="inline-block"><Button link="https://research.samsung.com/srca" target="_blank" variant="blue-hyperlink" text="Samsung Canada" textSize="text-sm"/></span>.</p>
                 </div>
                 <div className="flex items-center justify-center h-full order-1 mb-30 md:order-2">
