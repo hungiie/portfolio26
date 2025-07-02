@@ -39,12 +39,12 @@ export default function Cardio () {
                 </div>
 
                 <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mb-8">The ongoing trend</p>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-x-24">
+                <div className="grid grid-cols-1 md:grid-cols-[1.2fr_1fr] gap-x-24">
                     <div>
                         <p className="text-sm text-[var(--colour-bodytext)]">Many people struggle to stay motivated throughout their cardio sessions, and often cutting their workouts short. However, with the right music, runners can feel more energized and motivated - making it easier to push through.</p>
                         <p className="text-sm text-[var(--colour-bodytext)]">This need had sparked the trend of cardio playlists.</p>
                         <p className="text-sm text-[var(--colour-cardio)] mt-7 mb-7">Fitness influencers makes cardio playlists, where songs are organized to match different speed ranges (phases) of a typical cardio session.</p>
-                        <Button variant="blue-hyperlink" text="Learn more about the effects music has on workout." textSize="text-sm" link="#" target="_blank"/>
+                        <Button variant="blue-hyperlink" text="Learn more about the effects music has on running." textSize="text-sm" link="#" target="_blank"/>
                     </div>
                     <div className="grid grid-cols-3 gap-x-3">
                         <video autoPlay muted loop className="rounded-lg w-full fill"> <source src="/trend vid 1.mp4" type="video/mp4" /></video>
@@ -73,7 +73,7 @@ export default function Cardio () {
 
                 <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">Research findings (summarized)</p>
                 <p className="text-sm text-[var(--colour-bodytext)] w-1/2 mb-8">I conducted <span className="text-[var(--colour-cardio)]">5 interviews</span> with 5 users that identify themselves as fitness enthusiasts, and have participated in the trend on TikTok with their favourite fitness influencers. After the interviews, I categorized my data into <span className="text-[var(--colour-cardio)]">3 themes</span>, and <span className="text-[var(--colour-cardio)]">1 driving insight</span>.</p>
-                <Button variant="blue-hyperlink" link="#" text="Read full data summary here." textSize="text-sm" target="_blank"/>
+                <Button variant="blue-hyperlink" link="#" text="Read complete research data here." textSize="text-sm" target="_blank"/>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 mt-8">
                     <div>
                         <div className="mb-10">
@@ -94,7 +94,7 @@ export default function Cardio () {
                     </div>
                     <div className="px-13 py-10 rounded-2xl bg-[#f0f0f0] h-fit">
                         <p className="text-sm text-[var(--colour-bodytext)] font-semibold mb-4">Driving insight</p>
-                        <p className="text-3xl text-[var(--colour-bodytext)] mb-2">Influencer-made playlist is considered a good starting point, but <span className="text-[var(--colour-cardio)]">personal customization</span> is what makes a “good” cardio playlist.</p>
+                        <p className="text-3xl font-semibold tracking-tight text-[var(--colour-bodytext)] mb-2">Influencer-made playlist is considered a good starting point, but <span className="text-[var(--colour-cardio)]">personal customization</span> is what makes a “good” cardio playlist.</p>
                     </div>
                 </div>
 
@@ -106,7 +106,7 @@ export default function Cardio () {
                     </div>
                     <div className="px-13 py-10 rounded-2xl bg-[#f0f0f0]">
                         <p className="text-sm text-[var(--colour-bodytext)] font-semibold mb-4">How Might We</p>
-                        <p className="text-3xl text-[var(--colour-bodytext)] mb-2">How can I make sure our runner feels informed and confident in <span className="text-[var(--colour-cardio)]">customizing</span> & <span className="text-[var(--colour-cardio)]">testing</span> her own cardio playlists?</p>
+                        <p className="text-3xl font-semibold tracking-tight text-[var(--colour-bodytext)] mb-2">How can I make sure our runner feels informed and confident in <span className="text-[var(--colour-cardio)]">customizing</span> & <span className="text-[var(--colour-cardio)]">testing</span> her own cardio playlists?</p>
                     </div>
                 </div>
 
