@@ -4,6 +4,8 @@ import ProjectHero from "@/components/projecthero";
 import Footer from "@/components/footer";
 import Overview from "@/components/overview";
 import Button from "@/components/button";
+import ExpandableImage from "@/components/expandable-image";
+import ExpandableVideo from "@/components/expandable-video";
 
 export default function Cardio () {
     return(
@@ -37,14 +39,14 @@ export default function Cardio () {
                     </div>
                     <div className="flex items-center justify-center">
                         <div className="grid grid-cols-4 mt-3 gap-x-4 w-3/5">
-                            <video autoPlay muted loop className="rounded-2xl w-full border-[#e7e7e7] border-2 overflow-hidden hover:border-[var(--main-blue)]"> <source src="/cardio/sol 3.mp4" type="video/mp4" /></video>
-                            <video autoPlay muted loop className="rounded-2xl w-full border-[#e7e7e7] border-2 overflow-hidden hover:border-[var(--main-blue)]"> <source src="/cardio/sol 1.mp4" type="video/mp4" /></video>
-                            <video autoPlay muted loop className="rounded-2xl w-full border-[#e7e7e7] border-2 overflow-hidden hover:border-[var(--main-blue)]"> <source src="/cardio/sol 4.mp4" type="video/mp4" /></video>
-                            <video autoPlay muted loop className="rounded-2xl w-full border-[#e7e7e7] border-2 overflow-hidden hover:border-[var(--main-blue)]"> <source src="/cardio/sol 5.mp4" type="video/mp4" /></video>
+                            <ExpandableVideo src="/cardio/sol 3.mp4" className="w-full" />
+                            <ExpandableVideo src="/cardio/sol 1.mp4" className="w-full" />
+                            <ExpandableVideo src="/cardio/sol 4.mp4" className="w-full" />
+                            <ExpandableVideo src="/cardio/sol 5.mp4" className="w-full" />
                         </div>
                     </div>
                     <div className="text-center mt-7">
-                        <p className="text-sm text-[var(--colour-bodytext)]">2 main flows, 4 main screens.</p>
+                        <p className="text-sm text-[var(--colour-bodytext)]">2 main flows with 4 main screens, 12 screens in total.</p>
                     </div>
                 </div>
 
@@ -122,7 +124,7 @@ export default function Cardio () {
 
                 <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">card.io's solutions</p>
                 <div className="grid grid-cols-[3fr_1fr] bg-transparent gap-x-2 gap-y-18 px-50">
-                    <div className="h-full flex flex-col justify-center rounded-2xl bg-[#f0f0f0] px-13 py-10">
+                    <div className="h-full flex flex-col justify-center rounded-2xl bg-[#f0f0f0] px-13">
                         <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-6">Solution 1 & 2</p>
                         <p className="text-lg text-[var(--colour-bodytext)] font-semibold leading-5.5 mb-2">Automatically create organized, colour-coded playlists based on users' music preferences.</p>
                         <p className="text-sm text-[var(--colour-bodytext)] mb-6">Different phases are highlighted with different colours.</p>
@@ -131,39 +133,57 @@ export default function Cardio () {
                         <p className="text-sm text-[var(--colour-bodytext)]">If Michelle wants to replace a Sabrina Carpenter song that she doesn’t like, she will have plenty of different song suggestions as replacements.</p>
                     </div>
                     <div className="flex justify-center">
-                        <video autoPlay muted loop className="rounded-2xl w-4/5"> <source src="/cardio/sol 1.mp4" type="video/mp4" /></video>
+                        <ExpandableVideo src="/cardio/sol 1.mp4" className="w-4/5" />
                     </div>
 
-                    <div className="h-full flex flex-col justify-center rounded-2xl bg-[#f0f0f0] px-13 py-10">
+                    <div className="h-full flex flex-col justify-center rounded-2xl bg-[#f0f0f0] px-13">
                         <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-4">Solution 3</p>
                         <p className="text-lg text-[var(--colour-bodytext)] font-semibold mb-4 leading-5.5">Offers questionnaire that collects users’ physical attributes data to create a more personalized playlist.</p>
                         <p className="text-sm text-[var(--colour-bodytext)]">With this feature, Michelle wouldn’t encounter the problem about being short anymore.</p>
                     </div>
                     <div className="flex justify-center">
-                        <video autoPlay muted loop className="rounded-2xl w-4/5"> <source src="/cardio/sol 3.mp4" type="video/mp4" /></video>
+                        <ExpandableVideo src="/cardio/sol 3.mp4" className="w-4/5" />
                     </div>
 
-                    <div className="h-full flex flex-col justify-center rounded-2xl bg-[#f0f0f0] px-13 py-10">
+                    <div className="h-full flex flex-col justify-center rounded-2xl bg-[#f0f0f0] px-13">
                         <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-4">Solution 4</p>
                         <p className="text-lg text-[var(--colour-bodytext)] font-semibold mb-4 leading-5.5">Makes testing easier - Real-time report during running.</p>
                         <p className="text-sm text-[var(--colour-bodytext)]">Report includes session’s progress, current BPM, current treadmill settings (speed, incline). Michelle can test her playlist with informative interface that provides sufficient information for her to make her decisions.</p>
                     </div>
                     <div className="flex justify-center">
-                        <video autoPlay muted loop className="rounded-2xl w-4/5"> <source src="/cardio/sol 4.mp4" type="video/mp4" /></video>
+                        <ExpandableVideo src="/cardio/sol 4.mp4" className="w-4/5" />
                     </div>
 
-                    <div className="h-full flex flex-col justify-center rounded-2xl bg-[#f0f0f0] px-13 py-10">
+                    <div className="h-full flex flex-col justify-center rounded-2xl bg-[#f0f0f0] px-13">
                         <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-4">Solution 5</p>
                         <p className="text-lg text-[var(--colour-bodytext)] font-semibold mb-4 leading-5.5">Offers more freedom in creating mixed playlists with different artists, albums, genres, etc.</p>
                         <p className="text-sm text-[var(--colour-bodytext)]">With “Manual Mode”, Michelle can freely add any songs she likes to the cardio playlist while still having all the features above for support.</p>
                     </div>
                     <div className="flex justify-center">
-                        <video autoPlay muted loop className="rounded-2xl w-4/5"> <source src="/cardio/sol 5.mp4" type="video/mp4" /></video>
+                        <ExpandableVideo src="/cardio/sol 5.mp4" className="w-4/5" />
                     </div>
 
                 </div>
 
                 <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">Conceptual sketches</p>
+                <div className="grid grid-cols-3 w-full gap-x-7 px-20">
+                    <div className="relative w-full aspect-square">
+                        <ExpandableImage src="/cardio/sketch-2.jpg" alt="card.io sketch" className="object-cover" />
+                    </div>
+                    <div className="relative w-full aspect-square">
+                        <ExpandableImage src="/cardio/sketch-1.jpg" alt="card.io sketch" className="object-cover" />
+                    </div>
+                    <div className="relative w-full aspect-square">
+                        <ExpandableImage src="/cardio/sketch-3.jpg" alt="card.io sketch" className="object-cover" />
+                    </div>
+                </div>
+
+                <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">First prototype & User testing</p>
+                <div className="flex items-center justify-center flex-col">
+                    <ExpandableVideo src="/cardio/draft-1.mp4" className="w-1/5" />
+                    <p className="text-sm text-[var(--colour-bodytext)] mt-5">First prototype of card.io.</p>
+                </div>
+
 
 
                 <div className="mb-50"></div>
