@@ -59,9 +59,9 @@ export default function Cardio () {
                         <Button variant="blue-hyperlink" text="Learn more about the effects music has on running." textSize="text-sm" link="#" target="_blank"/>
                     </div>
                     <div className="grid grid-cols-3 gap-x-3">
-                        <video autoPlay muted loop className="rounded-xl w-full fill"> <source src="/cardio/trend vid 1.mp4" type="video/mp4" /></video>
-                        <video autoPlay muted loop className="rounded-xl w-full fill"> <source src="/cardio/trend vid 2.mp4" type="video/mp4" /></video>
-                        <video autoPlay muted loop className="rounded-xl w-full fill"> <source src="/cardio/trend vid 3.mp4" type="video/mp4" /></video>
+                        <ExpandableVideo src="/cardio/trend vid 1.mp4" className="w-full" />
+                        <ExpandableVideo src="/cardio/trend vid 2.mp4" className="w-full" />
+                        <ExpandableVideo src="/cardio/trend vid 3.mp4" className="w-full" />
                     </div>
                 </div>
 
@@ -123,7 +123,7 @@ export default function Cardio () {
                 </div>
 
                 <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">card.io's solutions</p>
-                <div className="grid grid-cols-[3fr_1fr] bg-transparent gap-x-2 gap-y-18 px-50">
+                <div className="grid grid-cols-[3fr_1fr] bg-transparent gap-x-2 gap-y-15 px-35">
                     <div className="h-full flex flex-col justify-center rounded-2xl bg-[#f0f0f0] px-13">
                         <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-6">Solution 1 & 2</p>
                         <p className="text-lg text-[var(--colour-bodytext)] font-semibold leading-5.5 mb-2">Automatically create organized, colour-coded playlists based on users' music preferences.</p>
@@ -168,24 +168,38 @@ export default function Cardio () {
                 <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">Conceptual sketches</p>
                 <div className="grid grid-cols-3 w-full gap-x-7 px-20">
                     <div className="relative w-full aspect-square">
-                        <ExpandableImage src="/cardio/sketch-2.jpg" alt="card.io sketch" className="object-cover" />
+                        <ExpandableImage src="/cardio/sketch-2.jpg" alt="card.io sketch" className="w-full h-full" />
                     </div>
                     <div className="relative w-full aspect-square">
-                        <ExpandableImage src="/cardio/sketch-1.jpg" alt="card.io sketch" className="object-cover" />
+                        <ExpandableImage src="/cardio/sketch-1.jpg" alt="card.io sketch" className="w-full h-full" />
                     </div>
                     <div className="relative w-full aspect-square">
-                        <ExpandableImage src="/cardio/sketch-3.jpg" alt="card.io sketch" className="object-cover" />
+                        <ExpandableImage src="/cardio/sketch-3.jpg" alt="card.io sketch" className="w-full h-full" />
                     </div>
                 </div>
 
                 <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">First prototype & User testing</p>
                 <div className="flex items-center justify-center flex-col">
-                    <ExpandableVideo src="/cardio/draft-1.mp4" className="w-1/5" />
-                    <p className="text-sm text-[var(--colour-bodytext)] mt-5">First prototype of card.io.</p>
+                    <p className="text-sm text-[var(--colour-bodytext)] mb-3">First prototype of card.io.</p>
+                    <ExpandableVideo src="/cardio/draft-1.mp4" className="w-1/6" />
                 </div>
 
+                <div className="grid grid-cols-2 gap-x-20 mt-10 mb-20">
+                    <div>
+                        <p className="text-md text-[var(--colour-bodytext)] mt-10 font-semibold">I conducted a Heuristic evaluation session with another UX designer to discover <span className="text-[var(--colour-cardio)]">issues with this interface</span>.</p>
+                        <p className="text-sm text-[var(--colour-bodytext)] mt-7">Using slide bar as progress indicator gives a false impression.</p>
+                        <p className="text-sm text-[var(--colour-bodytext)] mt-1">The straight slide bar in card.io resembles the draggable bars on platforms like YouTube or Netflix. But in card.io, it functions solely as a progress indicator and isn’t interactive.</p>
+                    </div>
+                    <div>
 
+                    </div>
+                </div>
 
+                <div>
+                    <p className="text-md text-[var(--colour-bodytext)] mt-10 font-semibold">Next up, I conducted in-person user testing with 2 users.</p>
+                    <p className="text-sm text-[var(--colour-bodytext)] mt-7">With a day-pass ticket of a gym nearby, I asked them to set up the playlist in their phone, and use the feature while running, or after running if needed.</p>
+                    <p className="text-sm text-[var(--colour-bodytext)] mt-1">Again, I organized the responses into <span className="text-[var(--colour-cardio)]">2 reoccurring themes</span>.</p>
+                </div>
                 <div className="mb-50"></div>
 
                 <Footer />

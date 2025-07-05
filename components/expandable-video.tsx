@@ -13,7 +13,7 @@ export default function ExpandableVideo({ src, className }: Props) {
 
   return (
     <>
-      {/* Preview Video (autoplaying) */}
+      {/* Autoplaying Preview */}
       <div
         className={`relative cursor-pointer rounded-2xl overflow-hidden border-2 border-[#e7e7e7] hover:border-[var(--main-blue)] ${className}`}
         onClick={() => setIsOpen(true)}
@@ -28,7 +28,7 @@ export default function ExpandableVideo({ src, className }: Props) {
         />
       </div>
 
-      {/* Fullscreen Video Modal */}
+      {/* Slide-up Modal */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
@@ -39,11 +39,11 @@ export default function ExpandableVideo({ src, className }: Props) {
             onClick={() => setIsOpen(false)}
           >
             <motion.div
-              className="w-full max-w-4xl aspect-video rounded-2xl overflow-hidden shadow-2xl"
-              initial={{ scale: 0.9, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              exit={{ scale: 0.9, opacity: 0 }}
-              transition={{ duration: 0.3 }}
+              className="w-full max-w-6xl aspect-video rounded-2xl overflow-hidden shadow-2xl"
+              initial={{ y: 100, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              exit={{ y: 100, opacity: 0 }}
+              transition={{ duration: 0.4, ease: 'easeOut' }}
               onClick={(e) => e.stopPropagation()}
             >
               <video
