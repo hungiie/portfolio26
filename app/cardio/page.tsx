@@ -30,15 +30,25 @@ export default function Cardio () {
                 description2="I worked on this project individually as my own exploration of the UI design field in my undergraduate degree."
                 />
                 
-                <div className="mb-40">
+                <div>
                     <div className="mt-20 flex items-baseline">
-                        <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mr-8">First look</p>
+                        <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mr-8 mb-8">First look</p>
                         <Button variant="blue-hyperlink" link="#" text="See prototype" textSize="text-sm" target="_blank"></Button>
                     </div>
-                    {/* video goes here */}
+                    <div className="flex items-center justify-center">
+                        <div className="grid grid-cols-4 mt-3 gap-x-4 w-3/5">
+                            <video autoPlay muted loop className="rounded-2xl w-full border-[#e7e7e7] border-2 overflow-hidden hover:border-[var(--main-blue)]"> <source src="/cardio/sol 3.mp4" type="video/mp4" /></video>
+                            <video autoPlay muted loop className="rounded-2xl w-full border-[#e7e7e7] border-2 overflow-hidden hover:border-[var(--main-blue)]"> <source src="/cardio/sol 1.mp4" type="video/mp4" /></video>
+                            <video autoPlay muted loop className="rounded-2xl w-full border-[#e7e7e7] border-2 overflow-hidden hover:border-[var(--main-blue)]"> <source src="/cardio/sol 4.mp4" type="video/mp4" /></video>
+                            <video autoPlay muted loop className="rounded-2xl w-full border-[#e7e7e7] border-2 overflow-hidden hover:border-[var(--main-blue)]"> <source src="/cardio/sol 5.mp4" type="video/mp4" /></video>
+                        </div>
+                    </div>
+                    <div className="text-center mt-7">
+                        <p className="text-sm text-[var(--colour-bodytext)]">2 main flows, 4 main screens.</p>
+                    </div>
                 </div>
 
-                <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mb-8">The ongoing trend</p>
+                <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-25 mb-8">The ongoing trend</p>
                 <div className="grid grid-cols-1 md:grid-cols-[1.2fr_1fr] gap-x-24">
                     <div>
                         <p className="text-sm text-[var(--colour-bodytext)]">Many people struggle to stay motivated throughout their cardio sessions, and often cutting their workouts short. However, with the right music, runners can feel more energized and motivated - making it easier to push through.</p>
@@ -47,9 +57,9 @@ export default function Cardio () {
                         <Button variant="blue-hyperlink" text="Learn more about the effects music has on running." textSize="text-sm" link="#" target="_blank"/>
                     </div>
                     <div className="grid grid-cols-3 gap-x-3">
-                        <video autoPlay muted loop className="rounded-lg w-full fill"> <source src="/trend vid 1.mp4" type="video/mp4" /></video>
-                        <video autoPlay muted loop className="rounded-lg w-full fill"> <source src="/trend vid 2.mp4" type="video/mp4" /></video>
-                        <video autoPlay muted loop className="rounded-lg w-full fill"> <source src="/trend vid 3.mp4" type="video/mp4" /></video>
+                        <video autoPlay muted loop className="rounded-xl w-full fill"> <source src="/cardio/trend vid 1.mp4" type="video/mp4" /></video>
+                        <video autoPlay muted loop className="rounded-xl w-full fill"> <source src="/cardio/trend vid 2.mp4" type="video/mp4" /></video>
+                        <video autoPlay muted loop className="rounded-xl w-full fill"> <source src="/cardio/trend vid 3.mp4" type="video/mp4" /></video>
                     </div>
                 </div>
 
@@ -111,8 +121,53 @@ export default function Cardio () {
                 </div>
 
                 <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">card.io's solutions</p>
+                <div className="grid grid-cols-[3fr_1fr] bg-transparent gap-x-2 gap-y-18 px-50">
+                    <div className="h-full flex flex-col justify-center rounded-2xl bg-[#f0f0f0] px-13 py-10">
+                        <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-6">Solution 1 & 2</p>
+                        <p className="text-lg text-[var(--colour-bodytext)] font-semibold leading-5.5 mb-2">Automatically create organized, colour-coded playlists based on users' music preferences.</p>
+                        <p className="text-sm text-[var(--colour-bodytext)] mb-6">Different phases are highlighted with different colours.</p>
+
+                        <p className="text-lg text-[var(--colour-bodytext)] font-semibold leading-5.5 mb-2">Makes customizing easier - Suggest songs with similar range of BPM.</p>
+                        <p className="text-sm text-[var(--colour-bodytext)]">If Michelle wants to replace a Sabrina Carpenter song that she doesn’t like, she will have plenty of different song suggestions as replacements.</p>
+                    </div>
+                    <div className="flex justify-center">
+                        <video autoPlay muted loop className="rounded-2xl w-4/5"> <source src="/cardio/sol 1.mp4" type="video/mp4" /></video>
+                    </div>
+
+                    <div className="h-full flex flex-col justify-center rounded-2xl bg-[#f0f0f0] px-13 py-10">
+                        <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-4">Solution 3</p>
+                        <p className="text-lg text-[var(--colour-bodytext)] font-semibold mb-4 leading-5.5">Offers questionnaire that collects users’ physical attributes data to create a more personalized playlist.</p>
+                        <p className="text-sm text-[var(--colour-bodytext)]">With this feature, Michelle wouldn’t encounter the problem about being short anymore.</p>
+                    </div>
+                    <div className="flex justify-center">
+                        <video autoPlay muted loop className="rounded-2xl w-4/5"> <source src="/cardio/sol 3.mp4" type="video/mp4" /></video>
+                    </div>
+
+                    <div className="h-full flex flex-col justify-center rounded-2xl bg-[#f0f0f0] px-13 py-10">
+                        <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-4">Solution 4</p>
+                        <p className="text-lg text-[var(--colour-bodytext)] font-semibold mb-4 leading-5.5">Makes testing easier - Real-time report during running.</p>
+                        <p className="text-sm text-[var(--colour-bodytext)]">Report includes session’s progress, current BPM, current treadmill settings (speed, incline). Michelle can test her playlist with informative interface that provides sufficient information for her to make her decisions.</p>
+                    </div>
+                    <div className="flex justify-center">
+                        <video autoPlay muted loop className="rounded-2xl w-4/5"> <source src="/cardio/sol 4.mp4" type="video/mp4" /></video>
+                    </div>
+
+                    <div className="h-full flex flex-col justify-center rounded-2xl bg-[#f0f0f0] px-13 py-10">
+                        <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-4">Solution 5</p>
+                        <p className="text-lg text-[var(--colour-bodytext)] font-semibold mb-4 leading-5.5">Offers more freedom in creating mixed playlists with different artists, albums, genres, etc.</p>
+                        <p className="text-sm text-[var(--colour-bodytext)]">With “Manual Mode”, Michelle can freely add any songs she likes to the cardio playlist while still having all the features above for support.</p>
+                    </div>
+                    <div className="flex justify-center">
+                        <video autoPlay muted loop className="rounded-2xl w-4/5"> <source src="/cardio/sol 5.mp4" type="video/mp4" /></video>
+                    </div>
+
+                </div>
+
+                <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">Conceptual sketches</p>
+
 
                 <div className="mb-50"></div>
+
                 <Footer />
             </div>
         </div>
