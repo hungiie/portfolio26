@@ -15,7 +15,7 @@ export default function ExpandableVideo({ src, className }: Props) {
     <>
       {/* Autoplaying Preview */}
       <div
-        className={`relative cursor-pointer rounded-2xl overflow-hidden border-2 border-[#e7e7e7] hover:border-[var(--main-blue)] ${className}`}
+        className={`relative cursor-pointer rounded-2xl shadow-black overflow-hidden border-2 border-[#e7e7e7] hover:border-[var(--main-blue)] ${className}`}
         onClick={() => setIsOpen(true)}
       >
         <video
@@ -24,7 +24,7 @@ export default function ExpandableVideo({ src, className }: Props) {
           muted
           loop
           playsInline
-          className="object-cover w-full h-full"
+          className="object-cover fill w-full h-full"
         />
       </div>
 
@@ -40,9 +40,9 @@ export default function ExpandableVideo({ src, className }: Props) {
           >
             <motion.div
               className="w-full max-w-6xl aspect-video rounded-2xl overflow-hidden shadow-2xl"
-              initial={{ y: 100, opacity: 0 }}
+              initial={{ y: -100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              exit={{ y: 100, opacity: 0 }}
+              exit={{ y: -100, opacity: 0 }}
               transition={{ duration: 0.4, ease: 'easeOut' }}
               onClick={(e) => e.stopPropagation()}
             >
