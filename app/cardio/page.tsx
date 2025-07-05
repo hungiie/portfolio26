@@ -184,17 +184,19 @@ export default function Cardio () {
                     <p className="text-sm text-[var(--colour-bodytext)] mt-4">First prototype of card.io.</p>
                 </div>
 
-                <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">User testing</p>
-                <div className="grid grid-cols-[2fr_1fr] gap-x-15 mt-10 h-fit">
-                    <div className="flex flex-col justify-center">
-                        <p className="text-md text-[var(--colour-bodytext)] font-semibold">I conducted a Heuristic evaluation session with another UX designer to discover <span className="text-[var(--colour-cardio)]">issues with this interface</span>.</p>
-                        <p className="text-sm text-[var(--colour-bodytext)] mt-7">Using slide bar as progress indicator gives a false impression.</p>
-                        <p className="text-sm text-[var(--colour-bodytext)] mt-1">The straight slide bar in card.io resembles the draggable bars on platforms like YouTube or Netflix. But in card.io, it functions solely as a progress indicator and isn’t interactive.</p>
-                    </div>
+                <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">Heuristic evaluation & User testing</p>
+                <p className="text-md text-[var(--colour-bodytext)] font-semibold">I conducted a Heuristic evaluation session with another UX designer to discover issues with this interface.</p>
+                <div className="grid grid-cols-2 gap-x-5 mt-5 h-fit px-35">
                     <div className="w-full h-auto relative">
                         <ExpandableImage src="/cardio/slidebar.png" alt="card.io" className="w-full aspect-5/2 mb-2"/>
+                    </div>
+                    <div className="w-full h-auto relative">
                         <ExpandableImage src="/cardio/youtube.png" alt="Blank Space" className="w-full aspect-5/2"/>
                     </div>
+                </div>
+                <div className="w-full text-center px-65 mt-5">
+                    <p className="text-sm text-[var(--colour-bodytext)]">Using slide bar as progress indicator gives a  <span className="text-[var(--colour-cardio)]">false impression</span>.</p>
+                    <p className="text-sm text-[var(--colour-bodytext)]">The straight slide bar in card.io resembles the draggable bars on platforms like YouTube or Netflix. But in card.io, it functions solely as a progress indicator and isn’t interactive.</p>
                 </div>
 
                 <div className="mt-20">
