@@ -208,13 +208,13 @@ export default function Cardio () {
                 <div className="grid grid-cols-2 mt-13 gap-x-5">
                     <div className="mb-13 bg-[var(--colour-grey)] px-15 py-10 rounded-2xl">
                         <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-2">Reoccurring theme 1</p>
-                        <p className="text-lg text-[var(--colour-bodytext)] font-semibold mb-4">Needs for glanceability.</p>
+                        <p className="text-lg text-[var(--colour-bodytext)] mb-3">Needs for glanceability.</p>
                         <p className="text-sm text-[var(--colour-bodytext)] mb-2">Users are constantly moving physically, resulting in struggles in receiving small texts information, or thin progress bar.</p>
                         <p className="text-sm text-[var(--colour-bodytext)] mb-2">MPH, BPM, Incline, etc. are displayed all at once, along with progress bar while having no clear hierarchy, causing cognitive overload.</p>
                     </div>
                     <div className="mb-13 bg-[var(--colour-grey)] px-15 py-10 rounded-2xl">
                         <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-2">Reoccurring theme 2</p>
-                        <p className="text-lg text-[var(--colour-bodytext)] font-semibold mb-4">Struggles with small interaction areas (tapping interaction)</p>
+                        <p className="text-lg text-[var(--colour-bodytext)] mb-3">Struggles with small interaction areas (tapping interaction)</p>
                         <p className="text-sm text-[var(--colour-bodytext)] mb-2">Small touch targets (e.g., the “next” button) are difficult to press accurately during running.</p>
                         <p className="text-sm text-[var(--colour-bodytext)] mb-2">These tapping interactions require high precision (have to tap precisely on an area of the interface).</p>
                     </div>
