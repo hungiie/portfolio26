@@ -31,14 +31,17 @@ export default function ExpandableImage({ src, alt, className }: Props) {
   return (
     <>
       <div
-        className={`relative cursor-pointer overflow-hidden border-2 border-[#e7e7e7] hover:border-[var(--main-blue)] rounded-xl ${className}`}
+        className={`relative cursor-pointer overflow-hidden border-3 border-[#e7e7e7] hover:border-[var(--main-blue)] rounded-2xl ${className}`}
         onClick={() => setIsOpen(true)}
       >
-        <Image
+        <img
           src={src}
           alt={alt}
-          fill
-          className="object-cover"
+          // width={naturalSize.width * 2}
+          // height={naturalSize.height * 2}
+          sizes="(max-width: 768px) 100vw, 25vw"
+          ref={imgRef}
+          className="w-full h-full object-cover fill"
         />
       </div>
 
