@@ -174,7 +174,7 @@ export default function Cardio () {
                 </div>
 
                 <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">Conceptual sketches</p>
-                <div className="grid grid-cols-3 w-full gap-x-7 px-35">
+                <div className="grid grid-cols-3 w-full gap-x-7 px-35 py-15 rounded-2xl bg-[var(--colour-grey)]">
                     <div className="relative w-full aspect-square">
                         <ExpandableImage src="/cardio/sketch-2.jpg" alt="card.io sketch" className="w-full h-full" />
                     </div>
@@ -198,13 +198,14 @@ export default function Cardio () {
                     <p className="text-md text-[var(--colour-bodytext)]">Using slide bar as progress indicator gives a  <span className="text-[var(--colour-cardio)]">false impression of interactivity</span>.</p>
                     <p className="text-md text-[var(--colour-bodytext)] mt-1">The straight slide bar in card.io resembles the draggable bars on platforms like YouTube or Netflix. But in card.io, it functions solely as a progress indicator and isn’t interactive.</p>
                 </div>
-                <div className="grid grid-cols-2 gap-x-5 mt-10 h-fit px-45">
+                <div className="grid grid-cols-2 gap-x-5 mt-10 h-fit px-45 py-10 rounded-2xl bg-[var(--colour-grey)]">
                     <div className="w-full h-auto relative">
                         <ExpandableImage src="/cardio/slidebar.png" alt="card.io" className="w-full aspect-5/2 mb-2"/>
                     </div>
                     <div className="w-full h-auto relative">
                         <ExpandableImage src="/cardio/youtube.png" alt="Blank Space" className="w-full aspect-5/2"/>
                     </div>
+                    <p className="text-sm text-center text-[var(--colour-bodytext)] mt-4 col-span-2">Linear progress bar is perceived as interactable on multiple platforms.</p>
                 </div>
 
                 <div className="mt-20">
@@ -237,8 +238,8 @@ export default function Cardio () {
                     <p className="text-sm font-semibold text-[var(--colour-cardio)] mb-2">Key UX improvement 1</p>
                     <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mb-8">Process bar &#x2192; Circular design</p>
                 </div>
-                <div className="w-full py-10 px-75 bg-[var(--colour-grey)] rounded-2xl">
-                    <div className="grid grid-cols-[5fr_1fr_5fr] gap-x-5 w-full">
+                <div className="w-full py-10 px-90 bg-[var(--colour-grey)] rounded-2xl">
+                    <div className="grid grid-cols-[6fr_1fr_6fr] gap-x-5 w-full">
                         <div className="relative flex items-center justify-center flex-col">
                             <ExpandableImage src="/cardio/before.png" alt="card.io" className="w-full" />
                         </div>
@@ -248,10 +249,88 @@ export default function Cardio () {
                         <div className="relative flex items-center justify-center flex-col">
                             <ExpandableImage src="/cardio/after.png" alt="card.io" className="w-full" />
                         </div>
-                        <p className="text-sm text-[var(--colour-bodytext)] mt-4 text-center">First iteration: Progress bar</p>
+                        <p className="text-sm text-[var(--colour-bodytext)] mt-4 text-center">First iteration: Linear progress indicator</p>
                         <p></p>
                         <p className="text-sm text-[var(--colour-bodytext)] mt-4 text-center">Final iteration: Circular progress indicator</p>
                     </div>
+                </div>
+                <div className="grid grid-cols-3 gap-x-5 mt-5">
+                    <div className="w-full rounded-2xl bg-[var(--colour-grey)] px-13 py-8 flex items-center">
+                        <p className="text-md font-semibold text-[var(--colour-bodytext)] mb-2">More conventional non interactive progress indicator.</p>
+                    </div>
+                    <div className="w-full rounded-2xl bg-[var(--colour-grey)] px-13 py-8 flex items-center">
+                        <p className="text-md font-semibold text-[var(--colour-bodytext)] mb-2">Remove confusion with the progress bar for streaming services.</p>
+                    </div>
+                    <div className="w-full rounded-2xl bg-[var(--colour-grey)] px-13 py-8 flex items-center">
+                        <p className="text-md font-semibold text-[var(--colour-bodytext)] mb-2">Able to incorporate a thicker bezel, improving glanceability.</p>
+                    </div>
+                </div>
+
+
+                <div className="w-3/5 mt-25">
+                    <p className="text-sm font-semibold text-[var(--colour-cardio)] mb-2">Key UX improvement 2</p>
+                    <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mb-8">Tapping &#x2192; Swiping</p>
+                </div>
+                <div className="flex justify-center w-full rounded-2xl bg-[var(--colour-grey)] px-60 py-15 overflow-hidden">
+                    <ExpandableVideo src="/cardio/sol 4.mp4" className="w-1/5 scale-160 translate-y-20" />
+                </div>
+                <div className="grid grid-cols-3 gap-x-5 mt-5">
+                    <div className="w-full rounded-2xl bg-[var(--colour-grey)] px-13 py-8 flex items-center">
+                        <p className="text-md font-semibold text-[var(--colour-bodytext)] mb-2">Large interaction area, hard to miss.</p>
+                    </div>
+                    <div className="w-full rounded-2xl bg-[var(--colour-grey)] px-13 py-8 flex items-center">
+                        <p className="text-md font-semibold text-[var(--colour-bodytext)] mb-2">Low precision, high accuracy (compare to tapping which requires high precision).</p>
+                    </div>
+                    <div className="w-full rounded-2xl bg-[var(--colour-grey)] px-13 py-8 flex items-center">
+                        <p className="text-md font-semibold text-[var(--colour-bodytext)] mb-2">Easy to interact during intense physical activities.</p>
+                    </div>
+                </div>
+
+
+                <div className="w-3/5 mt-25">
+                    <p className="text-sm font-semibold text-[var(--colour-cardio)] mb-2">Key UX improvement 3</p>
+                    <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mb-8">Chunking information into groups</p>
+                </div>
+                <div className="w-full py-10 px-90 bg-[var(--colour-grey)] rounded-2xl">
+                    <div className="grid grid-cols-[6fr_1fr_6fr] gap-x-5 w-full">
+                        <div className="relative flex items-center justify-center flex-col">
+                            <ExpandableImage src="/cardio/before.png" alt="card.io" className="w-full" />
+                        </div>
+                        <div className="flex justify-center items-center">
+                            <p className="text-lg"> &#x2192;</p>
+                        </div>
+                        <div className="relative flex items-center justify-center flex-col">
+                            <ExpandableImage src="/cardio/after.png" alt="card.io" className="w-full" />
+                        </div>
+                        <p className="text-sm text-[var(--colour-bodytext)] mt-4 text-center">First iteration: Information are left-aligned in a paragraph-like fashion</p>
+                        <p></p>
+                        <p className="text-sm text-[var(--colour-bodytext)] mt-4 text-center">Final iteration: Information is categorized into groups, seperated by a swipe.</p>
+                    </div>
+                </div>
+                <div className="grid grid-cols-3 gap-x-5 mt-5">
+                    <div className="w-full rounded-2xl bg-[var(--colour-grey)] px-13 py-8 flex items-center">
+                        <p className="text-md font-semibold text-[var(--colour-bodytext)] mb-2">Instead of showing all information at once, sort them into 3 groups separated by a swipe.</p>
+                    </div>
+                    <div className="w-full rounded-2xl bg-[var(--colour-grey)] px-13 py-8 flex items-center">
+                        <p className="text-md font-semibold text-[var(--colour-bodytext)] mb-2">Reduce visual clutter, improve glanceability during intense running.</p>
+                    </div>
+                    <div className="w-full rounded-2xl bg-[var(--colour-grey)] px-13 py-8 flex items-center">
+                        <p className="text-md font-semibold text-[var(--colour-bodytext)] mb-2">Resemblance to a modern treadmill interface.</p>
+                    </div>
+                </div>
+
+                <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-20 mb-8">Looking back...</p>
+                <div className="w-4/5">
+                    <p className="text-md text-[var(--colour-bodytext)]">Customize to follow WCAG standard more (using different Figma plugins: A11y Colour Contrast Checker, A11y Text, etc.).</p>
+                    <p className="text-md text-[var(--colour-bodytext)]">See if there is a better way to give user support in customizing other than suggesting songs with similar BPM.</p>
+                    <p className="text-md text-[var(--colour-bodytext)]">I want to conduct more user testing to gather more data for the questionnaire.</p>
+                </div>
+
+                <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-20 mb-8">Takeaways</p>
+                <div className="w-4/5">
+                    <p className="text-md text-[var(--colour-bodytext)]">Design with a clear goal in mind.</p>
+                    <p className="text-md text-[var(--colour-bodytext)]">Pay attention to every steps as it will all come together and it will all have to make sense in the end.</p>
+                    <p className="text-md text-[var(--colour-bodytext)]">Design for accessibility.</p>
                 </div>
 
 
