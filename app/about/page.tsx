@@ -43,22 +43,23 @@ export default function About(){
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-9">
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
                         <div className="relative w-full aspect-square rounded-xl overflow-hidden">
-                            <Image src="/spinning.jpeg" alt="spinning tour" className="object-cover" fill />
-                        </div>
-                        <div className="relative w-full aspect-square rounded-xl overflow-hidden">
-                            <Image src="/vsa.jpeg" alt="vsa sfu" className="object-cover" fill />
+                            <Image src="/spinning.jpeg" alt="hungie tran" className="object-cover" fill />
                         </div>
                         <div className="relative w-full aspect-square rounded-xl overflow-hidden">
                             <Image src="/matcha.jpeg" alt="matcha" className="object-cover" fill />
                         </div>
                         <div className="relative w-full aspect-square rounded-xl overflow-hidden">
+                            <Image src="/vsa.jpeg" alt="vsa sfu" className="object-cover" fill />
+                        </div>
+                        
+                        <div className="relative w-full aspect-square rounded-xl overflow-hidden">
                             <Image src="/mad.jpg" alt="madison beer" className="object-cover" fill />
                         </div>
                         <div className="relative w-full aspect-square rounded-xl overflow-hidden">
-                            <Image src="/vsaflag.jpeg" alt="vsa sfu" className="object-cover" fill />
+                            <Image src="/vsaflag.jpeg" alt="hungie tran" className="object-cover" fill />
                         </div>
                         <div className="relative w-full aspect-square rounded-xl overflow-hidden">
-                            <Image src="/finsa.jpeg" alt="finsa sfu" className="object-cover" fill />
+                            <Image src="/painting.jpg" alt="painting" className="object-cover" fill />
                         </div>
                         {/* <ExpandableImage src="/spinning.jpeg" alt="spinning tour" className="relative w-full aspect-square rounded-xl overflow-hidden"/>
                         <ExpandableImage src="/vsa.jpeg" alt="vsa sfu" className="relative w-full aspect-square rounded-xl overflow-hidden"/>
