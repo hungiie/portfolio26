@@ -200,12 +200,12 @@ export default function Cardio () {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 mt-10 h-fit px-5 md:px-45 2xl:px-75 py-5 md:py-10 rounded-2xl bg-[var(--colour-grey)]">
                     <div className="w-full h-auto relative">
-                        <ExpandableImage src="/cardio/slidebar.png" alt="card.io" className="w-full aspect-5/2 mb-2"/>
+                        <ExpandableImage src="/cardio/slidebar.png" alt="card.io" className="w-full aspect-auto md:aspect-[5/2] mb-2"/>
                     </div>
                     <div className="w-full h-auto relative">
-                        <ExpandableImage src="/cardio/youtube.png" alt="Blank Space" className="w-full aspect-5/2"/>
+                        <ExpandableImage src="/cardio/youtube.png" alt="Blank Space" className="w-full aspect-auto md:aspect-[5/2]"/>
                     </div>
-                    <p className="text-sm text-center text-[var(--colour-bodytext)] mt-4 col-span-2">Linear progress bar is perceived as interactable on multiple platforms.</p>
+                    <p className="text-sm text-center text-[var(--colour-bodytext)] mt-4 md:col-span-2">Linear progress bar is perceived as interactable on multiple platforms.</p>
                 </div>
 
                 <div className="mt-20">
