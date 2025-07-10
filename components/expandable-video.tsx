@@ -15,7 +15,7 @@ export default function ExpandableVideo({ src, className }: Props) {
     <>
       {/* Autoplaying Preview */}
       <div
-        className={`relative cursor-pointer rounded-2xl shadow-black overflow-hidden border-3 border-[#e7e7e7] hover:border-[var(--main-blue)] ${className}`}
+        className={`relative cursor-pointer rounded-xl md:rounded-2xl shadow-black overflow-hidden border-3 border-[#e7e7e7] hover:border-[var(--main-blue)] ${className}`}
         onClick={() => setIsOpen(true)}
       >
         <video

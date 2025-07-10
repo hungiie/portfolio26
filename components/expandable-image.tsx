@@ -57,7 +57,7 @@ export default function ExpandableImage({ src, alt, className }: Props) {
             <motion.div
               className="relative overflow-hidden shadow-2xl rounded-2xl bg-black"
               style={{
-                width: '100%',
+                height: '100%',
                 maxWidth: '60vw',
                 maxHeight: '90vh',
                 aspectRatio: `${naturalSize.width} / ${naturalSize.height}`,
