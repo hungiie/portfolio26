@@ -82,7 +82,7 @@ export default function Cardio () {
                     </div>
                     <div className="bg-[var(--colour-grey)] px-10 py-10 rounded-2xl">
                         <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-4">Trend observation 3</p>
-                        <p className="text-xl text-[var(--colour-bodytext)] font-semibold mb-4">Strategically organized songs that can't be shuffled.</p>
+                        <p className="text-xl text-[var(--colour-bodytext)] font-semibold mb-4">Strategically organized songs that can&lsquo;t be shuffled.</p>
                         <p className="text-md text-[var(--colour-bodytext)]">The playlists are structured to match the current speed range. The faster the treadmill (MPH), the faster the song (BPM).</p>
                     </div>
                 </div>
@@ -118,7 +118,7 @@ export default function Cardio () {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12">
                     <div className="py-10 rounded-2xl">
                         <p className="text-sm text-[var(--colour-bodytext)] font-semibold mb-4">Driving pain point</p>
-                        <p className="text-lg text-[var(--colour-bodytext)] mb-2">Runner feels frustrated because she doesn’t have confidence in customizing & testing the playlist's effectiveness on her own.</p>
+                        <p className="text-lg text-[var(--colour-bodytext)] mb-2">Runner feels frustrated because she doesn&lsquo;t have confidence in customizing & testing the playlist&lsquo;s effectiveness on her own.</p>
                     </div>
                     <div className="px-13 py-10 rounded-2xl bg-[var(--colour-grey)]">
                         <p className="text-sm text-[var(--colour-bodytext)] font-semibold mb-4">How Might We</p>
@@ -126,15 +126,15 @@ export default function Cardio () {
                     </div>
                 </div>
 
-                <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">card.io's solutions</p>
+                <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">card.io&lsquo;s solutions</p>
                 <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-y-15 px-0 md:px-35 2xl:px-90">
                     <div className="h-full flex flex-col justify-center rounded-2xl bg-[var(--colour-grey)] md:px-13 px-6 py-6">
                         <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-8">Solution 1 & 2</p>
-                        <p className="text-lg text-[var(--colour-bodytext)] font-semibold leading-5.5 mb-2">Automatically create organized, colour-coded playlists based on users' music preferences.</p>
+                        <p className="text-lg text-[var(--colour-bodytext)] font-semibold leading-5.5 mb-2">Automatically create organized, colour-coded playlists based on users&lsquo; music preferences.</p>
                         <p className="text-md text-[var(--colour-bodytext)] mb-8">Different phases are highlighted with different colours.</p>
 
                         <p className="text-lg text-[var(--colour-bodytext)] font-semibold leading-5.5 mb-2">Makes customizing easier - Suggest songs with similar range of BPM.</p>
-                        <p className="text-md text-[var(--colour-bodytext)]">If Michelle wants to replace a Sabrina Carpenter song that she doesn’t like, she will have plenty of different song suggestions as replacements.</p>
+                        <p className="text-md text-[var(--colour-bodytext)]">If Michelle wants to replace a Sabrina Carpenter song that she doesn&lsquo;t like, she will have plenty of different song suggestions as replacements.</p>
                     </div>
                     <div className="flex justify-center">
                         <ExpandableVideo src="/cardio/sol 1.mp4" className="w-1/2 md:w-4/5" />
@@ -142,7 +142,7 @@ export default function Cardio () {
 
                     <div className="h-full flex flex-col justify-center rounded-2xl bg-[var(--colour-grey)] md:px-13 px-6 py-6">
                         <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-4">Solution 3</p>
-                        <p className="text-lg text-[var(--colour-bodytext)] font-semibold mb-4 leading-5.5">Offers questionnaire that collects users’ physical attributes data to create a more personalized playlist.</p>
+                        <p className="text-lg text-[var(--colour-bodytext)] font-semibold mb-4 leading-5.5">Offers questionnaire that collects users&lsquo; physical attributes data to create a more personalized playlist.</p>
                         <p className="text-md text-[var(--colour-bodytext)]">With this feature, Michelle wouldn’t encounter the problem about being short anymore.</p>
 
                         {/* <div className="inline-block mt-10">
