@@ -127,7 +127,7 @@ export default function Cardio () {
                 </div>
 
                 <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">card.io&lsquo;s solutions</p>
-                <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-y-15 px-0 md:px-35 2xl:px-90">
+                <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-y-15 px-0 md:px-35 3xl:px-90">
                     <div className="h-full flex flex-col justify-center rounded-2xl bg-[var(--colour-grey)] md:px-13 px-6 py-6">
                         <p className="text-sm text-[var(--colour-cardio)] font-semibold mb-8">Solution 1 & 2</p>
                         <p className="text-lg text-[var(--colour-bodytext)] font-semibold leading-5.5 mb-2">Automatically create organized, colour-coded playlists based on users&lsquo; music preferences.</p>
@@ -174,7 +174,7 @@ export default function Cardio () {
                 </div>
 
                 <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-30 mb-8">Conceptual sketches</p>
-                <div className="grid grid-cols-3 w-full gap-x-2 md:gap-x-7 px-5 md:px-35 2xl:px-70 py-5 md:py-15 rounded-xl md:rounded-2xl bg-[var(--colour-grey)]">
+                <div className="grid grid-cols-3 w-full gap-x-2 md:gap-x-7 px-5 md:px-35 3xl:px-70 py-5 md:py-15 rounded-xl md:rounded-2xl bg-[var(--colour-grey)]">
                     <div className="relative w-full aspect-square">
                         <ExpandableImage src="/cardio/sketch-2.jpg" alt="card.io sketch" className="w-full h-full" />
                     </div>
@@ -198,7 +198,7 @@ export default function Cardio () {
                     <p className="text-md text-[var(--colour-bodytext)]">Using slide bar as progress indicator gives a  <span className="text-[var(--colour-cardio)]">false impression of interactivity</span>.</p>
                     <p className="text-md text-[var(--colour-bodytext)] mt-1">The straight slide bar in card.io resembles the draggable bars on platforms like YouTube or Netflix. But in card.io, it functions solely as a progress indicator and isn’t interactive.</p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 mt-10 h-fit px-5 md:px-45 2xl:px-75 py-5 md:py-10 rounded-2xl bg-[var(--colour-grey)]">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 mt-10 h-fit px-5 md:px-45 3xl:px-75 py-5 md:py-10 rounded-2xl bg-[var(--colour-grey)]">
                     <div className="w-full h-auto relative">
                         <ExpandableImage src="/cardio/slidebar.png" alt="card.io" className="w-full aspect-auto md:aspect-[5/2] mb-2"/>
                     </div>
@@ -238,7 +238,7 @@ export default function Cardio () {
                     <p className="text-sm font-semibold text-[var(--colour-cardio)] mb-2">Key UX improvement 1</p>
                     <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mb-8">Process bar &#x2192; Circular design</p>
                 </div>
-                <div className="w-full py-10 px-7 md:px-90 2xl:px-130 bg-[var(--colour-grey)] rounded-2xl">
+                <div className="w-full py-10 px-7 md:px-90 3xl:px-130 bg-[var(--colour-grey)] rounded-2xl">
                     <div className="grid grid-cols-[6fr_1fr_6fr] gap-x-5 w-full">
                         <div className="relative flex items-center justify-center flex-col">
                             <ExpandableImage src="/cardio/before.png" alt="card.io" className="w-full" />
@@ -271,8 +271,8 @@ export default function Cardio () {
                     <p className="text-sm font-semibold text-[var(--colour-cardio)] mb-2">Key UX improvement 2</p>
                     <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mb-8">Tapping &#x2192; Swiping</p>
                 </div>
-                <div className="flex justify-center w-full rounded-2xl bg-[var(--colour-grey)] px-0 md:px-60 2xl:px-80 py-15 overflow-hidden">
-                    <ExpandableVideo src="/cardio/sol 4.mp4" className="w-1/5 scale-160 translate-y-0 md:translate-y-20 2xl:translate-y-40" />
+                <div className="flex justify-center w-full rounded-2xl bg-[var(--colour-grey)] px-0 md:px-60 3xl:px-80 py-15 overflow-hidden">
+                    <ExpandableVideo src="/cardio/sol 4.mp4" className="w-1/5 scale-160 translate-y-0 md:translate-y-20 3xl:translate-y-40" />
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-x-5 gap-y-5 mt-5">
                     <div className="w-full rounded-2xl bg-[var(--colour-grey)] px-7 md:px-13 py-8 flex items-center">
@@ -291,7 +291,7 @@ export default function Cardio () {
                     <p className="text-sm font-semibold text-[var(--colour-cardio)] mb-2">Key UX improvement 3</p>
                     <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mb-8">Chunking information into groups</p>
                 </div>
-                <div className="w-full py-10 px-7 md:px-90 2xl:px-130 bg-[var(--colour-grey)] rounded-2xl">
+                <div className="w-full py-10 px-7 md:px-90 3xl:px-130 bg-[var(--colour-grey)] rounded-2xl">
                     <div className="grid grid-cols-[6fr_1fr_6fr] gap-x-5 w-full">
                         <div className="relative flex items-center justify-center flex-col">
                             <ExpandableImage src="/cardio/before.png" alt="card.io" className="w-full" />
