@@ -24,7 +24,6 @@ export default function ExpandableVideo({ src, className }: Props) {
           muted
           loop
           playsInline
-          preload="auto"
           className="object-cover fill w-full h-full scale-101 origin-center"
         />
       </div>
