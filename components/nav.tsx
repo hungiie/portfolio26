@@ -40,11 +40,14 @@ export default function Nav() {
           </div>
           <div className="w-full flex items-center justify-between md:w-auto md:justify-normal">
             <div className="flex">
-              <div className="mr-9">
+              <div className="mr-6 md:mr-12">
                 <Button link="/" target="_self" variant="grey-hyperlink" text="Home" textSize="text-sm"></Button>
               </div>
-              <div className="mr-6">
+              <div className="mr-6 md:mr-12">
                 <Button link="/about" target="_self" variant="grey-hyperlink" text="About" textSize="text-sm"></Button>
+              </div>
+              <div className="mr-3 md:mr-9">
+                <Button link="/play" target="_self" variant="grey-hyperlink" text="Play" textSize="text-sm"></Button>
               </div>
             </div>
             <div className="pl-1.5">
