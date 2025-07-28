@@ -46,10 +46,10 @@ export default function About(){
                             <Image src="/spinning.jpeg" alt="hungie tran" className="object-cover" fill />
                         </div>
                         <div className="relative w-full aspect-square rounded-xl overflow-hidden">
-                            <Image src="/matcha.jpeg" alt="matcha" className="object-cover" fill />
+                            <Image src="/vsa.jpeg" alt="vsa sfu" className="object-cover" fill />
                         </div>
                         <div className="relative w-full aspect-square rounded-xl overflow-hidden">
-                            <Image src="/vsa.jpeg" alt="vsa sfu" className="object-cover" fill />
+                            <Image src="/matcha.jpeg" alt="matcha" className="object-cover" fill />
                         </div>
                         
                         <div className="relative w-full aspect-square rounded-xl overflow-hidden">
@@ -59,7 +59,7 @@ export default function About(){
                             <Image src="/vsaflag.jpeg" alt="hungie tran" className="object-cover" fill />
                         </div>
                         <div className="relative w-full aspect-square rounded-xl overflow-hidden">
-                            <Image src="/painting.jpg" alt="painting" className="object-cover" fill />
+                            <Image src="/finsa.jpeg" alt="finsa" className="object-cover" fill />
                         </div>
                         {/* <ExpandableImage src="/spinning.jpeg" alt="spinning tour" className="relative w-full aspect-square rounded-xl overflow-hidden"/>
                         <ExpandableImage src="/vsa.jpeg" alt="vsa sfu" className="relative w-full aspect-square rounded-xl overflow-hidden"/>
