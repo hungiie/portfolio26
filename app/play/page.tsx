@@ -3,8 +3,8 @@
 import Footer from "@/components/footer"
 import Image from "next/image"
 import PlayProject from "@/components/play-project"
-import ExpandableImage from "@/components/expandable-image"
-import PlayImage from "@/components/play-image"
+// import ExpandableImage from "@/components/expandable-image"
+// import PlayImage from "@/components/play-image"
 
 
 export default function Play(){
