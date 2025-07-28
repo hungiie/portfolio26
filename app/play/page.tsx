@@ -3,6 +3,8 @@
 import Footer from "@/components/footer"
 import Image from "next/image"
 import PlayProject from "@/components/play-project"
+import ExpandableImage from "@/components/expandable-image"
+import PlayImage from "@/components/play-image"
 
 
 export default function Play(){
@@ -10,7 +12,7 @@ export default function Play(){
         <div className="mt-35 px-9 md:mt-40 md:px-22">
             <div className="grid grid-cols-1 md:grid-cols-[1.5fr_1fr]">
                 <div className="order-2 md:order-1">
-                    <p className="text-4xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight lleading-[120%] md:leading-[110%] mb-9">I like to play. Here&lsquo;s what comes out.</p>
+                    <p className="text-4xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight lleading-[120%] md:leading-[110%] mb-9">I like to play.<br></br> Here&lsquo;s what comes out.</p>
                 </div>
             </div>
 
@@ -37,22 +39,22 @@ export default function Play(){
                     </div>
 
                     {/* <div className="relative w-full aspect-square rounded-xl overflow-hidden">
-                        <ExpandableImage src="/play/illustration 1.png" alt="illustration" className="aspect-square" />
+                        <PlayImage srcPreview="/play/preview illustration 1.png" src="/play/illustration 1.png" alt="illustration" className="aspect-square"/>
                     </div>
                     <div className="relative w-full aspect-square rounded-xl overflow-hidden">
-                        <ExpandableImage src="/play/illustration 2.png" alt="illustration" className="aspect-square" />
+                        <PlayImage srcPreview="/play/preview illustration 2.png" src="/play/illustration 2.png" alt="illustration" className="aspect-square"/>
                     </div>
                     <div className="relative w-full aspect-square rounded-xl overflow-hidden">
-                        <ExpandableImage src="/play/illustration 3.png" alt="illustration" className="aspect-square" />
+                        <PlayImage srcPreview="/play/preview illustration 3.png" src="/play/illustration 3.png" alt="illustration" className="aspect-square"/>
                     </div>
                     <div className="relative w-full aspect-square rounded-xl overflow-hidden">
-                        <ExpandableImage src="/play/illustration 4.png" alt="illustration" className="aspect-square" />
+                        <PlayImage srcPreview="/play/preview illustration 4.png" src="/play/illustration 4.png" alt="illustration" className="aspect-square"/>
                     </div>
                     <div className="relative w-full aspect-square rounded-xl overflow-hidden">
-                        <ExpandableImage src="/play/illustration 5.png" alt="illustration" className="aspect-square" />
+                        <PlayImage srcPreview="/play/preview illustration 5.png" src="/play/illustration 5.png" alt="illustration" className="aspect-square"/>
                     </div>
                     <div className="relative w-full aspect-square rounded-xl overflow-hidden">
-                        <ExpandableImage src="/play/illustration 6.png" alt="illustration" className="aspect-square" />
+                        <PlayImage srcPreview="/play/preview illustration 6.png" src="/play/illustration 6.png" alt="illustration" className="aspect-square"/>
                     </div> */}
                 </div>
                 <div className="flex items-end">
@@ -62,8 +64,9 @@ export default function Play(){
 
             <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-35 mb-8">Acrylic painting</p>
             <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-9">
-                <div className="relative w-full h-[200px] md:h-[400px] rounded-xl overflow-hidden">
+                <div className="relative w-full h-[200px] md:h-[450px] rounded-xl overflow-hidden">
                     <Image src="/play/acrylic.PNG" alt="acrylic painting" className="object-cover" fill />
+                    {/* <PlayImage srcPreview="/play/acrylic.PNG" src="/play/acrylic.PNG" alt="acrylic painting" className="object-cover"/> */}
                 </div>
                 <div className="flex items-end">
                     <p className="text-xl text-[var(--colour-bodytext)] w-full md:w-4/5">2021</p>

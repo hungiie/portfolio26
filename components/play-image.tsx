@@ -1,48 +1,50 @@
 "use client";
 
 import Image from "next/image";
-import { useState, useRef, useLayoutEffect } from "react";
+import { useState, useRef, useLayoutEffect, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface Props {
+  srcPreview: string;
   src: string;
   alt: string;
   className?: string;
 }
 
-export default function ExpandableImage({ src, alt, className }: Props) {
+export default function PlayImage({ src, srcPreview, alt, className }: Props) {
   const [isOpen, setIsOpen] = useState(false);
-  const [naturalSize, setNaturalSize] = useState({ width: 4, height: 3 }); // fallback to 4:3
+  const [naturalSize, setNaturalSize] = useState({ width: 4, height: 3 }); // fallback aspect ratio
   const imgRef = useRef<HTMLImageElement | null>(null);
 
-  // Load natural size for dynamic aspect ratio
+  // Load natural dimensions of full image
   useLayoutEffect(() => {
-    if (imgRef.current) {
-      const img = imgRef.current;
-      if (img.naturalWidth && img.naturalHeight) {
-        setNaturalSize({
-          width: img.naturalWidth,
-          height: img.naturalHeight,
-        });
-      }
-    }
-  }, [isOpen]);
+    const fullImg = new window.Image();
+    fullImg.src = src;
+    fullImg.onload = () => {
+      setNaturalSize({
+        width: fullImg.naturalWidth,
+        height: fullImg.naturalHeight,
+      });
+    };
+  }, [src]);
 
   return (
     <>
+      {/* Preview Image */}
       <div
-        className={`relative cursor-pointer overflow-hidden border-3 border-[#e7e7e7] hover:border-[var(--main-blue)] rounded-2xl ${className}`}
+        className={`relative cursor-pointer overflow-hidden border-3 border-transparent hover:border-[var(--main-blue)] rounded-2xl ${className}`}
         onClick={() => setIsOpen(true)}
       >
         <img
-          src={src}
+          src={srcPreview}
           alt={alt}
           sizes="(max-width: 768px) 100vw, 25vw"
           ref={imgRef}
-          className="w-full h-full object-cover fill"
+          className="w-full h-full object-cover fill scale-[1.07]"
         />
       </div>
 
+      {/* Modal */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
@@ -55,22 +57,25 @@ export default function ExpandableImage({ src, alt, className }: Props) {
             <motion.div
               className="relative overflow-hidden shadow-2xl rounded-2xl bg-black"
               style={{
-                height: '100%',
+                position: 'relative',
+                aspectRatio: `${naturalSize.width} / ${naturalSize.height}`,
                 maxWidth: '60vw',
                 maxHeight: '90vh',
-                aspectRatio: `${naturalSize.width} / ${naturalSize.height}`,
+                width: '100%',
+                minWidth: '300px',
               }}
-              initial={{ y: -100, opacity: 0 }}
+              initial={{ y: -80, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              exit={{ y: -100, opacity: 0 }}
+              exit={{ y: -80, opacity: 0 }}
               transition={{ duration: 0.4, ease: 'easeOut' }}
-              onClick={(e) => e.stopPropagation()}
+              onClick={(e) => e.stopPropagation()} // prevent modal close when clicking image
             >
               <Image
                 src={src}
                 alt={alt}
                 fill
-                className="object-contain rounded-xl"
+                className="object-contain rounded-xl scale-[1.05]"
+                priority
               />
             </motion.div>
           </motion.div>
