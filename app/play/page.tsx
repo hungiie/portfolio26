@@ -12,7 +12,7 @@ export default function Play(){
         <div className="mt-35 px-9 md:mt-40 md:px-22">
             <div className="grid grid-cols-1 md:grid-cols-[1.5fr_1fr]">
                 <div className="order-2 md:order-1">
-                    <p className="text-4xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight lleading-[120%] md:leading-[110%] mb-9">I like to play.<br></br> Here&lsquo;s what comes out.</p>
+                    <p className="text-4xl md:text-7xl text-[var(--colour-bodytext)] font-semibold tracking-tight lleading-[120%] md:leading-[110%] mb-9">I like to play.<br></br> This is what follows.</p>
                 </div>
             </div>
 
