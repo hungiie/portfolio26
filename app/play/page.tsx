@@ -35,6 +35,25 @@ export default function Play(){
                     <div className="relative w-full aspect-square rounded-xl overflow-hidden">
                         <Image src="/play/preview illustration 6.png" alt="illustration" className="object-cover" fill />
                     </div>
+
+                    {/* <div className="relative w-full aspect-square rounded-xl overflow-hidden">
+                        <ExpandableImage src="/play/illustration 1.png" alt="illustration" className="aspect-square" />
+                    </div>
+                    <div className="relative w-full aspect-square rounded-xl overflow-hidden">
+                        <ExpandableImage src="/play/illustration 2.png" alt="illustration" className="aspect-square" />
+                    </div>
+                    <div className="relative w-full aspect-square rounded-xl overflow-hidden">
+                        <ExpandableImage src="/play/illustration 3.png" alt="illustration" className="aspect-square" />
+                    </div>
+                    <div className="relative w-full aspect-square rounded-xl overflow-hidden">
+                        <ExpandableImage src="/play/illustration 4.png" alt="illustration" className="aspect-square" />
+                    </div>
+                    <div className="relative w-full aspect-square rounded-xl overflow-hidden">
+                        <ExpandableImage src="/play/illustration 5.png" alt="illustration" className="aspect-square" />
+                    </div>
+                    <div className="relative w-full aspect-square rounded-xl overflow-hidden">
+                        <ExpandableImage src="/play/illustration 6.png" alt="illustration" className="aspect-square" />
+                    </div> */}
                 </div>
                 <div className="flex items-end">
                     <p className="text-xl text-[var(--colour-bodytext)] w-full md:w-4/5">2020 - now</p>
