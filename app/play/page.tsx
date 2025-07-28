@@ -44,7 +44,7 @@ export default function Play(){
             <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-35 mb-8">Acrylic painting</p>
             <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-9">
                 <div className="relative w-full h-[200px] md:h-[400px] rounded-xl overflow-hidden">
-                    <Image src="/play/acrylic.png" alt="acrylic painting" className="object-cover" fill />
+                    <Image src="/play/acrylic.PNG" alt="acrylic painting" className="object-cover" fill />
                 </div>
                 <div className="flex items-end">
                     <p className="text-xl text-[var(--colour-bodytext)] w-full md:w-4/5">2021</p>
