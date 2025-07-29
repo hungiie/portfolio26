@@ -74,7 +74,7 @@ export default function Play(){
             </div>
 
             <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-35 mb-8">UX engineer</p>
-            <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr]">
+            <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-9">
                 <div>
                     <PlayProject link="" name="Pawfect Match (2025)" description="Website connecting animal shelters with potential adopters. With pet’s data stored in SQL database, dynamic filtering & searching is supported, for a better adopting experience." tag1="SQL database" tag2="PHP for back end" imageSrc="/play/pawfect match.png" />
                     <PlayProject link="" name="Memory Mate (2024)" description="Note-taking app for senior citizens, provides assistance in everyday tasks, integrating native features and API such as Apple Maps, Text-to-speech, voice note." tag1="React Native" tag2="Firebase for back end" imageSrc="/play/memory mate.png" />
