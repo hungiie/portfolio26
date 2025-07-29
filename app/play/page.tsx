@@ -16,7 +16,7 @@ export default function Play(){
                 </div>
             </div>
 
-            <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-20 mb-8">Illustrations</p>
+            <p className="text-2xl text-[var(--colour-bodytext)] mt-20 mb-8">Illustrations</p>
             <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-9">
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
                     <div className="relative w-full aspect-square rounded-xl overflow-hidden">
@@ -62,7 +62,7 @@ export default function Play(){
                 </div>
             </div>
 
-            <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-35 mb-8">Acrylic painting</p>
+            <p className="text-2xl text-[var(--colour-bodytext)] mt-35 mb-8">Acrylic painting</p>
             <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-9">
                 <div className="relative w-full h-[200px] md:h-[450px] rounded-xl overflow-hidden">
                     <Image src="/play/acrylic.PNG" alt="acrylic painting" className="object-cover" fill />
@@ -73,7 +73,7 @@ export default function Play(){
                 </div>
             </div>
 
-            <p className="text-2xl font-semibold text-[var(--colour-bodytext)] mt-35 mb-8">UX engineer</p>
+            <p className="text-2xl text-[var(--colour-bodytext)] mt-35 mb-8">UX engineer</p>
             <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-9">
                 <div>
                     <PlayProject link="" name="Pawfect Match (2025)" description="Website connecting animal shelters with potential adopters. With pet’s data stored in SQL database, dynamic filtering & searching is supported, for a better adopting experience." tag1="SQL database" tag2="PHP for back end" imageSrc="/play/pawfect match.png" />
