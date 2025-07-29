@@ -65,7 +65,7 @@ export default function Play(){
             <p className="text-2xl text-[var(--colour-bodytext)] mt-35 mb-8">Acrylic painting</p>
             <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-9">
                 <div className="relative w-full h-[200px] md:h-[450px] rounded-xl overflow-hidden">
-                    <Image src="/play/acrylic.jpg" alt="acrylic painting" className="object-cover" fill />
+                    <Image src="/play/acrylic.jpg" alt="acrylic painting" className="object-cover md:scale-115" fill />
                     {/* <PlayImage srcPreview="/play/acrylic.PNG" src="/play/acrylic.PNG" alt="acrylic painting" className="object-cover"/> */}
                 </div>
                 <div className="flex items-end">
