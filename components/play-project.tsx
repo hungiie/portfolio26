@@ -1,6 +1,5 @@
 "use client"
 
-import { link } from "fs";
 import Image from "next/image";
 
 interface Props {
