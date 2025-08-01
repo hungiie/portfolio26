@@ -63,7 +63,7 @@ export default function Play(){
                 </div>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-9 mt-35 md:mt-50 mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-9 mt-35 mb-8">
                 <div className="md:flex md:items-baseline">
                     <p className="text-2xl text-[var(--colour-bodytext)] mb-4 md:mb-0 md:mr-18">UX engineer</p>
                     <Button variant="blue-hyperlink" link="https://github.com/hungiie" text="Check out my GitHub." textSize="text-md" target="_blank"></Button>
@@ -79,7 +79,7 @@ export default function Play(){
             </div>
 
 
-            <p className="text-2xl text-[var(--colour-bodytext)] mt-35 md:mt-50 mb-8">Acrylic painting</p>
+            <p className="text-2xl text-[var(--colour-bodytext)] mt-35 mb-8">Acrylic painting</p>
             <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-9">
                 <div className="relative w-full h-[200px] md:h-[450px] rounded-xl overflow-hidden">
                     <Image src="/play/acrylic.jpg" alt="acrylic painting" className="object-cover md:scale-115" fill />
