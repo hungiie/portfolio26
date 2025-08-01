@@ -1,5 +1,6 @@
 "use client"
 
+import { link } from "fs";
 import Image from "next/image";
 
 interface Props {
@@ -13,7 +14,7 @@ interface Props {
 
 export default function PlayProject(props: Props) {
     return(
-        <div className="group mb-4 rounded-2xl border-[#efefef] border-2 overflow-hidden hover:border-[var(--main-blue)] grid grid-cols-1 md:grid-cols-[1fr_2fr] cursor-pointer">
+        <a href={props.link} target="_blank" className="group mb-4 rounded-2xl border-[#efefef] border-2 overflow-hidden hover:border-[var(--main-blue)] grid grid-cols-1 md:grid-cols-[1fr_2fr] cursor-pointer">
             <div className="w-full h-40 md:h-full relative overflow-hidden">
                 <Image src={props.imageSrc} alt={props.name} fill className="object-cover transform scale-101 origin-center" />
             </div>
@@ -29,6 +30,6 @@ export default function PlayProject(props: Props) {
                     <p className="mt-2 ml-7 inline-block text-xs text-[var(--colour-bodytext-3)]">{props.tag2}</p>
                 </div>
             </div>
-        </div>
+        </a>
     )
 }
